@@ -1144,7 +1144,7 @@ window.colorData = {
         },
         {
                 "color_number": "200",
-                "hex": "#f6fdfc"
+                "hex": "#d4eae7"
         },
         {
                 "color_number": "201",

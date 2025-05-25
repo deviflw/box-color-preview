@@ -51,6 +51,52 @@
             min-height: 85vh;
         }
 
+        /* Mobile responsive design */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .controls {
+                order: 2;
+                padding: 20px;
+            }
+            
+            .preview-area {
+                order: 1;
+                padding: 20px;
+            }
+            
+            .mockup-container {
+                width: 300px;
+                height: 300px;
+            }
+            
+            .color-grid {
+                grid-template-columns: repeat(8, 1fr);
+                max-height: 200px;
+            }
+            
+            .color-swatch {
+                width: 28px;
+                height: 28px;
+            }
+            
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+
         .controls {
             background: #f8f9fa;
             padding: 30px;
@@ -335,8 +381,8 @@
                         <span class="info-value" id="selected-suede">001 - #808080</span>
                     </div>
                     
-                    <button class="save-btn" onclick="saveCombination()">
-                        💾 Save Combination
+                    <button class="save-btn" onclick="copySelection()">
+                        📋 Copy Selection
                     </button>
                 </div>
             </div>
@@ -552,35 +598,36 @@
             suedeMask.style.webkitMaskPosition = "center";
         }
 
-        // Save current combination as image
-        async function saveCombination() {
+        // Copy current selection to clipboard
+        async function copySelection() {
             try {
-                const mockupContainer = document.querySelector('.mockup-container');
+                const baseText = currentBase === 'light' ? 'Light Base' : 'Dark Base';
+                const selectionText = `AUBLIQ Color Selection:
+Base: ${baseText}
+Leather: ${selectedLeather.number} - ${selectedLeather.hex}
+Suede: ${selectedSuede.number} - ${selectedSuede.hex}
+
+Generated: ${new Date().toLocaleDateString()}`;
+
+                await navigator.clipboard.writeText(selectionText);
                 
-                // Use html2canvas library for capturing
-                if (typeof html2canvas === 'undefined') {
-                    // Fallback: show instructions for manual screenshot
-                    alert('💡 To save: Right-click on the preview and select "Save image as..." or take a screenshot!');
-                    return;
-                }
+                // Show success feedback
+                const button = event.target;
+                const originalText = button.innerHTML;
+                button.innerHTML = '✅ Copied!';
+                button.style.backgroundColor = '#27ae60';
                 
-                const canvas = await html2canvas(mockupContainer, {
-                    backgroundColor: null,
-                    scale: 2 // Higher quality
-                });
-                
-                // Create download link
-                const link = document.createElement('a');
-                const fileName = `AUBLIQ_${currentBase}_L${selectedLeather.number}_S${selectedSuede.number}.png`;
-                link.download = fileName;
-                link.href = canvas.toDataURL();
-                link.click();
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.style.backgroundColor = '';
+                }, 2000);
                 
             } catch (error) {
-                console.error('Save error:', error);
-                // Fallback instruction
-                alert('💡 Manual save: Right-click on the preview → "Save image as..." or take a screenshot!\n\n' +
-                      `Current: ${currentBase} Base, Leather ${selectedLeather.number}, Suede ${selectedSuede.number}`);
+                // Fallback for older browsers
+                alert(`Current Selection:
+Base: ${currentBase === 'light' ? 'Light Base' : 'Dark Base'}
+Leather: ${selectedLeather.number} - ${selectedLeather.hex}
+Suede: ${selectedSuede.number} - ${selectedSuede.hex}`);
             }
         }
     </script>
