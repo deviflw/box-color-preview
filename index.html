@@ -86,9 +86,10 @@
                 padding: 15px;
             }
             
-            .mockup-container {
-                width: 330px;
-                height: 330px;
+            /* Higher specificity for mobile mockup container */
+            .preview-area .mockup-container {
+                width: 330px !important;
+                height: 330px !important;
             }
             
             .color-grid {
