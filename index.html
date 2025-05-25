@@ -315,19 +315,35 @@
 
             <div class="preview-area">
                 <div class="mockup-container">
-                    <!-- Note: PNG files would need to be uploaded for full functionality -->
-                    <div style="text-align: center; padding: 50px; color: #666; border: 2px dashed #ddd; border-radius: 10px;">
-                        <h3>🎨 Color Preview</h3>
-                        <p>Mockup images not available on GitHub Pages</p>
-                        <p>Download and run locally for full preview functionality</p>
-                        <br>
-                        <div style="background: #e8f5e8; padding: 20px; border-radius: 8px;">
-                            <strong>Selected Colors:</strong><br>
-                            <span id="preview-base">Light Base</span><br>
-                            <span id="preview-leather">Leather: 001</span><br>
-                            <span id="preview-suede">Suede: 001</span>
-                        </div>
-                    </div>
+                    <!-- Base Under Layer (20% opacity) -->
+                    <div class="layer opacity-20" id="base-under" 
+                         style="background-image: url('Mockup/PNG/Light Base Under - 20 opacity.png')"></div>
+                    
+                    <!-- Suede Color Layer -->
+                    <div class="layer overlay suede-color" id="suede-layer"></div>
+                    
+                    <!-- Suede Mask Layer (overlay) -->
+                    <div class="layer overlay" id="suede-mask"
+                         style="background-image: url('Mockup/PNG/Suede Mask - Overlay.png')"></div>
+                    
+                    <!-- Leather Color Layer -->
+                    <div class="layer overlay leather-color" id="leather-layer"></div>
+                    
+                    <!-- Leather Mask Layer (overlay) -->
+                    <div class="layer overlay" id="leather-mask"
+                         style="background-image: url('Mockup/PNG/Leather Mask - Overlay.png')"></div>
+                    
+                    <!-- Base Top Layer (overlay) -->
+                    <div class="layer overlay" id="base-top"
+                         style="background-image: url('Mockup/PNG/Light Base Top - Overlay.png')"></div>
+                    
+                    <!-- Texture Layer (overlay) -->
+                    <div class="layer overlay" id="texture"
+                         style="background-image: url('Mockup/PNG/Texture - Overlay.png')"></div>
+                    
+                    <!-- AUBLIQ Logo -->
+                    <div class="layer" id="logo"
+                         style="background-image: url('Mockup/PNG/AUBLIQ.png')"></div>
                 </div>
             </div>
         </div>
@@ -349,6 +365,8 @@
 
         function initializeBaseSelector() {
             const baseButtons = document.querySelectorAll('.base-btn');
+            const baseUnder = document.getElementById('base-under');
+            const baseTop = document.getElementById('base-top');
 
             baseButtons.forEach(btn => {
                 btn.addEventListener('click', function() {
@@ -359,10 +377,17 @@
                     // Update current base
                     currentBase = this.dataset.base;
                     
+                    // Update layers
+                    if (currentBase === 'light') {
+                        baseUnder.style.backgroundImage = "url('Mockup/PNG/Light Base Under - 20 opacity.png')";
+                        baseTop.style.backgroundImage = "url('Mockup/PNG/Light Base Top - Overlay.png')";
+                    } else {
+                        baseUnder.style.backgroundImage = "url('Mockup/PNG/Dark Base Under - 20 opacity.png')";
+                        baseTop.style.backgroundImage = "url('Mockup/PNG/Dark Base Top - Overlay.png')";
+                    }
+                    
                     // Update info display
                     document.getElementById('selected-base').textContent = 
-                        currentBase === 'light' ? 'Light Base' : 'Dark Base';
-                    document.getElementById('preview-base').textContent = 
                         currentBase === 'light' ? 'Light Base' : 'Dark Base';
                 });
             });
@@ -371,21 +396,21 @@
         async function loadColors() {
             try {
                 // Load leather colors
-                const leatherResponse = await fetch('./Leather/leather_colors.json');
+                const leatherResponse = await fetch('Leather/leather_colors.json');
                 const leatherData = await leatherResponse.json();
                 leatherColors = leatherData.leather_colors;
                 renderColorGrid('leather-grid', leatherColors, 'leather');
 
                 // Load suede colors  
-                const suedeResponse = await fetch('./Suede/extracted_colors_FINAL.json');
+                const suedeResponse = await fetch('Suede/extracted_colors_FINAL.json');
                 const suedeData = await suedeResponse.json();
                 suedeColors = Object.values(suedeData).flat();
                 renderColorGrid('suede-grid', suedeColors, 'suede');
 
             } catch (error) {
                 console.error('Error loading colors:', error);
-                document.getElementById('leather-grid').innerHTML = '<div class="loading">Error loading colors - download for full functionality</div>';
-                document.getElementById('suede-grid').innerHTML = '<div class="loading">Error loading colors - download for full functionality</div>';
+                document.getElementById('leather-grid').innerHTML = '<div class="loading">Error loading colors</div>';
+                document.getElementById('suede-grid').innerHTML = '<div class="loading">Error loading colors</div>';
             }
         }
 
@@ -433,32 +458,60 @@
                     number: element.dataset.number,
                     hex: element.dataset.hex
                 };
+                updateLeatherColor();
                 document.getElementById('selected-leather').textContent = 
                     `${selectedLeather.number} - ${selectedLeather.hex}`;
-                document.getElementById('preview-leather').textContent = 
-                    `Leather: ${selectedLeather.number} (${selectedLeather.hex})`;
             } else {
                 selectedSuede = {
                     number: element.dataset.number,
                     hex: element.dataset.hex
                 };
+                updateSuedeColor();
                 document.getElementById('selected-suede').textContent = 
                     `${selectedSuede.number} - ${selectedSuede.hex}`;
-                document.getElementById('preview-suede').textContent = 
-                    `Suede: ${selectedSuede.number} (${selectedSuede.hex})`;
             }
         }
 
-        // Save current combination info
-        function saveCombination() {
-            const info = `AUBLIQ Color Combination:
-Base: ${currentBase}
-Leather: ${selectedLeather.number} (${selectedLeather.hex})
-Suede: ${selectedSuede.number} (${selectedSuede.hex})
+        function updateLeatherColor() {
+            const leatherLayer = document.getElementById('leather-layer');
+            leatherLayer.style.backgroundColor = selectedLeather.hex;
+        }
 
-For full preview functionality, download and run locally!`;
-            
-            alert(info);
+        function updateSuedeColor() {
+            const suedeLayer = document.getElementById('suede-layer');
+            suedeLayer.style.backgroundColor = selectedSuede.hex;
+        }
+
+        // Save current combination as image
+        async function saveCombination() {
+            try {
+                const mockupContainer = document.querySelector('.mockup-container');
+                
+                // Use html2canvas library for capturing
+                if (typeof html2canvas === 'undefined') {
+                    // Fallback: show instructions for manual screenshot
+                    alert('💡 To save: Right-click on the preview and select "Save image as..." or take a screenshot!');
+                    return;
+                }
+                
+                const canvas = await html2canvas(mockupContainer, {
+                    backgroundColor: null,
+                    scale: 2 // Higher quality
+                });
+                
+                // Create download link
+                const link = document.createElement('a');
+                const fileName = `AUBLIQ_${currentBase}_L${selectedLeather.number}_S${selectedSuede.number}.png`;
+                link.download = fileName;
+                link.href = canvas.toDataURL();
+                link.click();
+                
+            } catch (error) {
+                console.error('Save error:', error);
+                // Fallback instruction
+                alert('💡 Manual save: Right-click on the preview → "Save image as..." or take a screenshot!\n\n' +
+                      `Current: ${currentBase} Base, Leather ${selectedLeather.number}, Suede ${selectedSuede.number}`);
+            }
         }
     </script>
 </body>
