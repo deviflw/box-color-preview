@@ -254,6 +254,8 @@
         .leather-color { background-color: #8b4513; }
         .suede-color { background-color: #228b22; }
     </style>
+    <!-- Load color data -->
+    <script src="color-data.js"></script>
 </head>
 <body>
     <div class="container">
@@ -395,23 +397,63 @@
 
         async function loadColors() {
             try {
-                // Load leather colors
-                const leatherResponse = await fetch('Leather/leather_colors.json');
-                const leatherData = await leatherResponse.json();
-                leatherColors = leatherData.leather_colors;
-                renderColorGrid('leather-grid', leatherColors, 'leather');
-
-                // Load suede colors  
-                const suedeResponse = await fetch('Suede/extracted_colors_FINAL.json');
-                const suedeData = await suedeResponse.json();
-                suedeColors = Object.values(suedeData).flat();
-                renderColorGrid('suede-grid', suedeColors, 'suede');
+                // Load color data from external JS file (avoids CORS issues)
+                if (typeof window.colorData === 'undefined') {
+                    // Fallback: Load from external script
+                    const script = document.createElement('script');
+                    script.src = 'color-data.js';
+                    script.onload = function() {
+                        leatherColors = window.colorData.leather;
+                        suedeColors = window.colorData.suede;
+                        renderColorGrid('leather-grid', leatherColors, 'leather');
+                        renderColorGrid('suede-grid', suedeColors, 'suede');
+                    };
+                    script.onerror = function() {
+                        // Ultimate fallback with basic colors
+                        loadFallbackColors();
+                    };
+                    document.head.appendChild(script);
+                } else {
+                    leatherColors = window.colorData.leather;
+                    suedeColors = window.colorData.suede;
+                    renderColorGrid('leather-grid', leatherColors, 'leather');
+                    renderColorGrid('suede-grid', suedeColors, 'suede');
+                }
 
             } catch (error) {
                 console.error('Error loading colors:', error);
-                document.getElementById('leather-grid').innerHTML = '<div class="loading">Error loading colors</div>';
-                document.getElementById('suede-grid').innerHTML = '<div class="loading">Error loading colors</div>';
+                loadFallbackColors();
             }
+        }
+
+        function loadFallbackColors() {
+            // Basic fallback colors for demo purposes
+            leatherColors = [
+                {color_number: "001", hex: "#250324"},
+                {color_number: "002", hex: "#98898e"},
+                {color_number: "003", hex: "#5a4a55"}
+            ];
+            suedeColors = [
+                {color_number: "001", hex: "#fcfcfb"},
+                {color_number: "002", hex: "#d2c3ae"},
+                {color_number: "003", hex: "#d1b29f"}
+            ];
+            renderColorGrid('leather-grid', leatherColors, 'leather');
+            renderColorGrid('suede-grid', suedeColors, 'suede');
+            
+            // Show helpful message
+            const previewArea = document.querySelector('.preview-area');
+            previewArea.innerHTML = `
+                <div style="text-align: center; padding: 40px;">
+                    <h3>🎨 Color Preview</h3>
+                    <p style="margin: 20px 0;">For full functionality with all 565 colors:</p>
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #dee2e6;">
+                        <p><strong>Option 1:</strong> Download and run locally</p>
+                        <code style="background: #e9ecef; padding: 4px 8px; border-radius: 4px;">python -m http.server 8000</code>
+                        <p style="margin-top: 15px;"><strong>Option 2:</strong> Use the basic preview above</p>
+                    </div>
+                </div>
+            `;
         }
 
         function renderColorGrid(containerId, colors, type) {
