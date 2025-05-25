@@ -254,13 +254,12 @@
         .leather-color { background-color: #8b4513; }
         .suede-color { background-color: #228b22; }
 
-        /* Footer styles */
+        /* Footer styles - matching header design */
         .footer {
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
             color: white;
+            padding: 30px;
             text-align: center;
-            padding: 20px;
-            margin-top: 20px;
         }
 
         .footer p {
@@ -269,12 +268,13 @@
         }
 
         .footer .credits {
-            font-size: 0.9em;
-            font-weight: 500;
+            font-size: 1.1em;
+            font-weight: 300;
+            margin-bottom: 10px;
         }
 
         .footer .date {
-            font-size: 0.8em;
+            font-size: 1em;
             opacity: 0.7;
         }
 
@@ -431,29 +431,17 @@
 
         async function loadColors() {
             try {
-                // Load color data from external JS file (avoids CORS issues)
-                if (typeof window.colorData === 'undefined') {
-                    // Fallback: Load from external script
-                    const script = document.createElement('script');
-                    script.src = 'color-data.js';
-                    script.onload = function() {
-                        leatherColors = window.colorData.leather;
-                        suedeColors = window.colorData.suede;
-                        renderColorGrid('leather-grid', leatherColors, 'leather');
-                        renderColorGrid('suede-grid', suedeColors, 'suede');
-                    };
-                    script.onerror = function() {
-                        // Ultimate fallback with basic colors
-                        loadFallbackColors();
-                    };
-                    document.head.appendChild(script);
-                } else {
+                // Check if colorData is loaded
+                if (window.colorData && window.colorData.leather && window.colorData.suede) {
                     leatherColors = window.colorData.leather;
                     suedeColors = window.colorData.suede;
+                    console.log(`Loaded ${leatherColors.length} leather colors and ${suedeColors.length} suede colors`);
                     renderColorGrid('leather-grid', leatherColors, 'leather');
                     renderColorGrid('suede-grid', suedeColors, 'suede');
+                } else {
+                    console.log('Color data not found, loading fallback...');
+                    loadFallbackColors();
                 }
-
             } catch (error) {
                 console.error('Error loading colors:', error);
                 loadFallbackColors();

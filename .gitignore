@@ -1,12 +1,13 @@
-# Ignore large files and personal data
-*.psd
+# Ignore large source images but keep essential PNGs
 *.jpg
 *.jpeg
-*.png
+# *.png  # Commented out to allow essential PNG files
 *.tiff
 *.bmp
+*.psd
 
-# Keep only essential app files
+# Keep only essential files
+!Mockup/PNG/
 !Mockup/ColorPreview/
 !README.md
 !README-GitHub.md
