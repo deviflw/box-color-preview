@@ -347,13 +347,13 @@
                     <div class="layer" id="base-under" 
                          style="background-image: url('Mockup/PNG/light-base-under.png')"></div>
                     
-                    <!-- Suede Mask Layer (normal) with default gray color -->
+                    <!-- Suede Mask Layer - Color masked by PNG alpha channel -->
                     <div class="layer" id="suede-mask"
-                         style="background-image: url('Mockup/PNG/suede-mask.png'); background-color: #808080;"></div>
+                         style="background-color: #808080; mask: url('Mockup/PNG/suede-mask.png'); -webkit-mask: url('Mockup/PNG/suede-mask.png'); mask-size: contain; -webkit-mask-size: contain; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; mask-position: center; -webkit-mask-position: center;"></div>
                     
-                    <!-- Leather Mask Layer (normal) with default gray color -->
+                    <!-- Leather Mask Layer - Color masked by PNG alpha channel -->
                     <div class="layer" id="leather-mask"
-                         style="background-image: url('Mockup/PNG/leather-mask.png'); background-color: #808080;"></div>
+                         style="background-color: #808080; mask: url('Mockup/PNG/leather-mask.png'); -webkit-mask: url('Mockup/PNG/leather-mask.png'); mask-size: contain; -webkit-mask-size: contain; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; mask-position: center; -webkit-mask-position: center;"></div>
                     
                     <!-- Texture Hard Light Layer -->
                     <div class="layer hard-light" id="texture-hard-light"
@@ -527,11 +527,29 @@
         function updateLeatherColor() {
             const leatherMask = document.getElementById('leather-mask');
             leatherMask.style.backgroundColor = selectedLeather.hex;
+            // Preserve mask properties
+            leatherMask.style.mask = "url('Mockup/PNG/leather-mask.png')";
+            leatherMask.style.webkitMask = "url('Mockup/PNG/leather-mask.png')";
+            leatherMask.style.maskSize = "contain";
+            leatherMask.style.webkitMaskSize = "contain";
+            leatherMask.style.maskRepeat = "no-repeat";
+            leatherMask.style.webkitMaskRepeat = "no-repeat";
+            leatherMask.style.maskPosition = "center";
+            leatherMask.style.webkitMaskPosition = "center";
         }
 
         function updateSuedeColor() {
             const suedeMask = document.getElementById('suede-mask');
             suedeMask.style.backgroundColor = selectedSuede.hex;
+            // Preserve mask properties
+            suedeMask.style.mask = "url('Mockup/PNG/suede-mask.png')";
+            suedeMask.style.webkitMask = "url('Mockup/PNG/suede-mask.png')";
+            suedeMask.style.maskSize = "contain";
+            suedeMask.style.webkitMaskSize = "contain";
+            suedeMask.style.maskRepeat = "no-repeat";
+            suedeMask.style.webkitMaskRepeat = "no-repeat";
+            suedeMask.style.maskPosition = "center";
+            suedeMask.style.webkitMaskPosition = "center";
         }
 
         // Save current combination as image
