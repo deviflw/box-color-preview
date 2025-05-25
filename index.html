@@ -47,7 +47,7 @@
 
         .main-content {
             display: grid;
-            grid-template-columns: 400px 1fr;
+            grid-template-columns: 450px 1fr;
             min-height: 80vh;
         }
 
@@ -144,9 +144,9 @@
 
         .color-grid {
             display: grid;
-            grid-template-columns: repeat(8, 1fr);
-            gap: 8px;
-            max-height: 220px;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 6px;
+            max-height: 300px;
             overflow-y: auto;
             border: 1px solid #e9ecef;
             border-radius: 8px;
@@ -155,14 +155,14 @@
         }
 
         .color-swatch {
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             border: 2px solid #ddd;
             border-radius: 4px;
             cursor: pointer;
             transition: all 0.2s ease;
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .color-swatch:hover {
@@ -179,14 +179,14 @@
 
         .color-number {
             position: absolute;
-            bottom: -20px;
+            bottom: -18px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 10px;
+            font-size: 9px;
             font-weight: bold;
             color: #666;
             background: white;
-            padding: 2px 4px;
+            padding: 1px 3px;
             border-radius: 2px;
             border: 1px solid #ddd;
             white-space: nowrap;
@@ -253,6 +253,35 @@
         /* Color application layers */
         .leather-color { background-color: #8b4513; }
         .suede-color { background-color: #228b22; }
+
+        /* Footer styles */
+        .footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            opacity: 0.9;
+        }
+
+        .footer .credits {
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .footer .date {
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+
+        .footer .heart {
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
     </style>
     <!-- Load color data -->
     <script src="color-data.js"></script>
@@ -349,6 +378,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <p class="credits">Created with <span class="heart">❤️</span> by Mila & Claude</p>
+        <p class="date">May 2025 • AUBLIQ Color Preview System</p>
     </div>
 
     <script>
