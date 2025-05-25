@@ -1,0 +1,399 @@
+import cv2
+import numpy as np
+from sklearn.cluster import KMeans
+import os
+import json
+from collections import Counter
+
+def extract_dominant_color(image_region, n_clusters=3):
+    """Extract the dominant color from an image region using K-means clustering."""
+    pixels = image_region.reshape(-1, 3)
+    
+    if len(pixels) < 10:
+        return np.array([128, 128, 128])
+    
+    kmeans = KMeans(n_clusters=min(n_clusters, len(pixels)), random_state=42, n_init=10)
+    kmeans.fit(pixels)
+    
+    colors = kmeans.cluster_centers_
+    labels = kmeans.labels_
+    label_counts = Counter(labels)
+    
+    dominant_label = label_counts.most_common(1)[0][0]
+    dominant_color = colors[dominant_label]
+    
+    return dominant_color.astype(int)
+
+def rgb_to_hex(rgb):
+    """Convert RGB values to hex color code."""
+    return "#{:02x}{:02x}{:02x}".format(int(rgb[0]), int(rgb[1]), int(rgb[2]))
+
+def get_color_name(rgb):
+    """Get a simple color name based on RGB values."""
+    r, g, b = int(rgb[0]), int(rgb[1]), int(rgb[2])
+    
+    if r > 200 and g > 200 and b > 200:
+        return "Light/White"
+    elif r < 50 and g < 50 and b < 50:
+        return "Dark/Black"
+    elif r > g and r > b:
+        return "Red/Pink" if g > 100 else "Red"
+    elif g > r and g > b:
+        return "Green"
+    elif b > r and b > g:
+        return "Blue"
+    elif r > 150 and g > 150:
+        return "Yellow"
+    elif abs(r - g) < 30 and abs(g - b) < 30:
+        if r > 150:
+            return "Light Gray"
+        elif r > 80:
+            return "Gray"
+        else:
+            return "Dark Gray"
+    else:
+        return "Mixed Color"
+
+def get_grid_config(image_file):
+    """
+    Get the CORRECT grid configuration for each image.
+    FIXED: Always 5 COLUMNS, varying ROWS
+    """
+    if "suede-1.jpg" in image_file:
+        return 6, 5  # 6 ROWS, 5 COLUMNS = 30 colors
+    else:
+        return 10, 5  # 10 ROWS, 5 COLUMNS = 50 colors
+
+def create_precise_grid(image, rows, cols):
+    """Create a precise grid with specified dimensions."""
+    height, width = image.shape[:2]
+    
+    # Calculate cell dimensions
+    cell_width = width // cols
+    cell_height = height // rows
+    
+    squares = []
+    for row in range(rows):
+        for col in range(cols):
+            x = col * cell_width
+            y = row * cell_height
+            # Adjust last column and row to fill the image completely
+            w = cell_width if col < cols - 1 else width - x
+            h = cell_height if row < rows - 1 else height - y
+            squares.append((x, y, w, h))
+    
+    return squares
+
+def process_image_fixed(image_path, starting_number):
+    """Process image with CORRECT grid configuration and sequential numbering."""
+    image = cv2.imread(image_path)
+    if image is None:
+        print(f"Error: Could not load image {image_path}")
+        return None, 0
+    
+    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    image_file = os.path.basename(image_path)
+    
+    # Get CORRECT grid configuration
+    rows, cols = get_grid_config(image_file)
+    total_squares = rows * cols
+    
+    print(f"  Image dimensions: {image_rgb.shape[1]} x {image_rgb.shape[0]}")
+    print(f"  Using {rows} ROWS x {cols} COLUMNS grid ({total_squares} squares)")
+    print(f"  Color numbers: {starting_number:03d} to {starting_number + total_squares - 1:03d}")
+    
+    # Create grid
+    squares = create_precise_grid(image_rgb, rows, cols)
+    
+    # Extract colors
+    colors_data = []
+    for i, (x, y, w, h) in enumerate(squares):
+        square_region = image_rgb[y:y+h, x:x+w]
+        
+        if square_region.size > 0:
+            dominant_color = extract_dominant_color(square_region)
+            hex_color = rgb_to_hex(dominant_color)
+            color_name = get_color_name(dominant_color)
+            
+            color_number = starting_number + i
+            
+            colors_data.append({
+                'color_number': f"{color_number:03d}",
+                'position_in_image': i + 1,
+                'rgb': dominant_color.tolist(),
+                'hex': hex_color,
+                'name': color_name,
+                'coordinates': (x, y, w, h),
+                'grid_position': f"Row {i // cols + 1}, Col {i % cols + 1}"
+            })
+    
+    return colors_data, total_squares
+
+def generate_html_grid(all_colors_data, output_file='extracted_colors_FIXED.html'):
+    """Generate HTML with CORRECT grid layouts (5 columns always)."""
+    
+    total_colors = sum(len(colors) for colors in all_colors_data.values())
+    
+    html_content = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suede Color Collection - FIXED Grid Layout</title>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }}
+        .image-section {{
+            background: white;
+            margin: 40px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }}
+        .image-title {{
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }}
+        .grid-info {{
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #34495e;
+        }}
+        .color-grid {{
+            display: grid;
+            grid-template-columns: repeat(5, 80px);
+            gap: 3px;
+            margin: 20px 0;
+            justify-content: start;
+        }}
+        .color-square {{
+            width: 80px;
+            height: 80px;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }}
+        .color-square:hover {{
+            transform: scale(1.05);
+            z-index: 10;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }}
+        .color-number {{
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 4px;
+            border-radius: 2px;
+        }}
+        .color-info {{
+            position: absolute;
+            bottom: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2c3e50;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            z-index: 20;
+            pointer-events: none;
+        }}
+        .color-square:hover .color-info {{
+            opacity: 1;
+        }}
+        .summary {{
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }}
+        .summary h1 {{
+            margin: 0 0 10px 0;
+            font-size: 32px;
+        }}
+        .stats {{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }}
+        .stat {{
+            text-align: center;
+        }}
+        .stat-number {{
+            font-size: 24px;
+            font-weight: bold;
+        }}
+        .copy-notification {{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: none;
+            z-index: 1000;
+        }}
+    </style>
+</head>
+<body>
+    <div class="copy-notification" id="copyNotification">Color copied to clipboard!</div>
+    <div class="summary">
+        <h1>Suede Color Collection - FIXED Layout</h1>
+        <p>Sequential numbering from 001 to {total_colors:03d}</p>
+        <p><strong>ALWAYS 5 COLUMNS:</strong> First image 6 rows, others 10 rows</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">{len(all_colors_data)}</div>
+                <div>Images Processed</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">{total_colors}</div>
+                <div>Total Colors</div>
+            </div>
+        </div>
+    </div>
+"""
+    
+    for image_name, colors in all_colors_data.items():
+        # Determine grid layout info
+        num_colors = len(colors)
+        first_color = colors[0]['color_number']
+        last_color = colors[-1]['color_number']
+        
+        if num_colors == 30:
+            grid_layout = "6 rows × 5 columns"
+        else:
+            grid_layout = "10 rows × 5 columns"
+            
+        html_content += f"""
+    <div class="image-section">
+        <div class="image-title">{image_name}</div>
+        <div class="grid-info">
+            {grid_layout} - Colors {first_color} to {last_color} ({num_colors} colors)
+        </div>
+        <div class="color-grid">
+"""
+        
+        for color_data in colors:
+            hex_color = color_data['hex']
+            rgb = color_data['rgb']
+            color_number = color_data['color_number']
+            
+            html_content += f"""            <div class="color-square" style="background-color: {hex_color};" onclick="copyToClipboard('{hex_color}', '{color_number}')">
+                <div class="color-number">{color_number}</div>
+                <div class="color-info">{hex_color}<br>RGB({rgb[0]}, {rgb[1]}, {rgb[2]})</div>
+            </div>
+"""
+        
+        html_content += """        </div>
+    </div>
+"""
+    
+    html_content += """
+    <script>
+        function copyToClipboard(hex, colorNumber) {
+            navigator.clipboard.writeText(hex).then(() => {
+                const notification = document.getElementById('copyNotification');
+                notification.textContent = `Color ${colorNumber} (${hex}) copied to clipboard!`;
+                notification.style.display = 'block';
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
+"""
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    
+    print(f"HTML grid saved to: {output_file}")
+
+def main():
+    input_folder = os.path.dirname(os.path.abspath(__file__))
+    print(f"Processing images in: {input_folder}")
+    
+    image_extensions = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff')
+    image_files = [f for f in os.listdir(input_folder) 
+                   if f.lower().endswith(image_extensions)]
+    
+    if not image_files:
+        print("No image files found.")
+        return
+    
+    print(f"Found {len(image_files)} images to process with FIXED grid configurations...")
+    print("CORRECTION: Always 5 COLUMNS, first image 6 ROWS, others 10 ROWS")
+    
+    all_colors_data = {}
+    current_color_number = 1  # Start from 001
+    
+    # Process suede-1.jpg first
+    suede_1_files = [f for f in image_files if "suede-1.jpg" in f]
+    other_files = [f for f in image_files if "suede-1.jpg" not in f]
+    
+    # Sort other files properly
+    other_files.sort()
+    
+    # Process in the correct order
+    ordered_files = suede_1_files + other_files
+    
+    for image_file in ordered_files:
+        image_path = os.path.join(input_folder, image_file)
+        print(f"\nProcessing: {image_file}")
+        
+        colors_data, colors_count = process_image_fixed(image_path, current_color_number)
+        
+        if colors_data:
+            all_colors_data[image_file] = colors_data
+            current_color_number += colors_count
+            print(f"  SUCCESS: Extracted {colors_count} colors")
+        else:
+            print(f"  FAILED to process {image_file}")
+    
+    if all_colors_data:
+        # Generate HTML
+        output_html = os.path.join(input_folder, 'extracted_colors_FIXED.html')
+        generate_html_grid(all_colors_data, output_html)
+        
+        # Save JSON
+        json_output = os.path.join(input_folder, 'extracted_colors_FIXED.json')
+        with open(json_output, 'w', encoding='utf-8') as f:
+            json.dump(all_colors_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"\nCOMPLETE!")
+        print(f"HTML: {output_html}")
+        print(f"JSON: {json_output}")
+        print(f"Total colors: {current_color_number - 1}")
+        print("FIXED: Now using 5 COLUMNS always (6 rows for first, 10 rows for others)")
+    else:
+        print("No colors extracted.")
+
+if __name__ == "__main__":
+    main()

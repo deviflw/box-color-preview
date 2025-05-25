@@ -1,0 +1,26 @@
+# Ignore large files and personal data
+*.psd
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+
+# Keep only essential app files
+!Mockup/ColorPreview/
+!README.md
+!README-GitHub.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Keep extraction results but not source images
+!*.json
+!*.html
+!*.py

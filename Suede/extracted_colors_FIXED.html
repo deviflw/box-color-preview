@@ -1,0 +1,2168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suede Color Collection - FIXED Grid Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        .image-section {
+            background: white;
+            margin: 40px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .image-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .grid-info {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #34495e;
+        }
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 80px);
+            gap: 3px;
+            margin: 20px 0;
+            justify-content: start;
+        }
+        .color-square {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .color-square:hover {
+            transform: scale(1.05);
+            z-index: 10;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .color-number {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 4px;
+            border-radius: 2px;
+        }
+        .color-info {
+            position: absolute;
+            bottom: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2c3e50;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            z-index: 20;
+            pointer-events: none;
+        }
+        .color-square:hover .color-info {
+            opacity: 1;
+        }
+        .summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .summary h1 {
+            margin: 0 0 10px 0;
+            font-size: 32px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .copy-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="copy-notification" id="copyNotification">Color copied to clipboard!</div>
+    <div class="summary">
+        <h1>Suede Color Collection - FIXED Layout</h1>
+        <p>Sequential numbering from 001 to 480</p>
+        <p><strong>ALWAYS 5 COLUMNS:</strong> First image 6 rows, others 10 rows</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">10</div>
+                <div>Images Processed</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">480</div>
+                <div>Total Colors</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-1.jpg</div>
+        <div class="grid-info">
+            6 rows × 5 columns - Colors 001 to 030 (30 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fbfbfb;" onclick="copyToClipboard('#fbfbfb', '001')">
+                <div class="color-number">001</div>
+                <div class="color-info">#fbfbfb<br>RGB(251, 251, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfbf9;" onclick="copyToClipboard('#fdfbf9', '002')">
+                <div class="color-number">002</div>
+                <div class="color-info">#fdfbf9<br>RGB(253, 251, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefcfb;" onclick="copyToClipboard('#fefcfb', '003')">
+                <div class="color-number">003</div>
+                <div class="color-info">#fefcfb<br>RGB(254, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfaf8;" onclick="copyToClipboard('#fdfaf8', '004')">
+                <div class="color-number">004</div>
+                <div class="color-info">#fdfaf8<br>RGB(253, 250, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefbf9;" onclick="copyToClipboard('#fefbf9', '005')">
+                <div class="color-number">005</div>
+                <div class="color-info">#fefbf9<br>RGB(254, 251, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefbf9;" onclick="copyToClipboard('#fefbf9', '006')">
+                <div class="color-number">006</div>
+                <div class="color-info">#fefbf9<br>RGB(254, 251, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfb;" onclick="copyToClipboard('#fdfcfb', '007')">
+                <div class="color-number">007</div>
+                <div class="color-info">#fdfcfb<br>RGB(253, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '008')">
+                <div class="color-number">008</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '009')">
+                <div class="color-number">009</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfc;" onclick="copyToClipboard('#fefdfc', '010')">
+                <div class="color-number">010</div>
+                <div class="color-info">#fefdfc<br>RGB(254, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '011')">
+                <div class="color-number">011</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfaf9;" onclick="copyToClipboard('#fdfaf9', '012')">
+                <div class="color-number">012</div>
+                <div class="color-info">#fdfaf9<br>RGB(253, 250, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfe;" onclick="copyToClipboard('#fefdfe', '013')">
+                <div class="color-number">013</div>
+                <div class="color-info">#fefdfe<br>RGB(254, 253, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '014')">
+                <div class="color-number">014</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefd;" onclick="copyToClipboard('#fefefd', '015')">
+                <div class="color-number">015</div>
+                <div class="color-info">#fefefd<br>RGB(254, 254, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '016')">
+                <div class="color-number">016</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '017')">
+                <div class="color-number">017</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '018')">
+                <div class="color-number">018</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '019')">
+                <div class="color-number">019</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefd;" onclick="copyToClipboard('#fefefd', '020')">
+                <div class="color-number">020</div>
+                <div class="color-info">#fefefd<br>RGB(254, 254, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfb;" onclick="copyToClipboard('#fdfcfb', '021')">
+                <div class="color-number">021</div>
+                <div class="color-info">#fdfcfb<br>RGB(253, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '022')">
+                <div class="color-number">022</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '023')">
+                <div class="color-number">023</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '024')">
+                <div class="color-number">024</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '025')">
+                <div class="color-number">025</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '026')">
+                <div class="color-number">026</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '027')">
+                <div class="color-number">027</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '028')">
+                <div class="color-number">028</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '029')">
+                <div class="color-number">029</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefe;" onclick="copyToClipboard('#fefefe', '030')">
+                <div class="color-number">030</div>
+                <div class="color-info">#fefefe<br>RGB(254, 254, 254)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-10.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 031 to 080 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '031')">
+                <div class="color-number">031</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '032')">
+                <div class="color-number">032</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '033')">
+                <div class="color-number">033</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '034')">
+                <div class="color-number">034</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '035')">
+                <div class="color-number">035</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '036')">
+                <div class="color-number">036</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '037')">
+                <div class="color-number">037</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '038')">
+                <div class="color-number">038</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '039')">
+                <div class="color-number">039</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '040')">
+                <div class="color-number">040</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '041')">
+                <div class="color-number">041</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '042')">
+                <div class="color-number">042</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '043')">
+                <div class="color-number">043</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #181320;" onclick="copyToClipboard('#181320', '044')">
+                <div class="color-number">044</div>
+                <div class="color-info">#181320<br>RGB(24, 19, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #091325;" onclick="copyToClipboard('#091325', '045')">
+                <div class="color-number">045</div>
+                <div class="color-info">#091325<br>RGB(9, 19, 37)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '046')">
+                <div class="color-number">046</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #1a1b1c;" onclick="copyToClipboard('#1a1b1c', '047')">
+                <div class="color-number">047</div>
+                <div class="color-info">#1a1b1c<br>RGB(26, 27, 28)</div>
+            </div>
+            <div class="color-square" style="background-color: #0e0d16;" onclick="copyToClipboard('#0e0d16', '048')">
+                <div class="color-number">048</div>
+                <div class="color-info">#0e0d16<br>RGB(14, 13, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '049')">
+                <div class="color-number">049</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #1d1c0f;" onclick="copyToClipboard('#1d1c0f', '050')">
+                <div class="color-number">050</div>
+                <div class="color-info">#1d1c0f<br>RGB(29, 28, 15)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '051')">
+                <div class="color-number">051</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #221811;" onclick="copyToClipboard('#221811', '052')">
+                <div class="color-number">052</div>
+                <div class="color-info">#221811<br>RGB(34, 24, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #210d08;" onclick="copyToClipboard('#210d08', '053')">
+                <div class="color-number">053</div>
+                <div class="color-info">#210d08<br>RGB(33, 13, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #332216;" onclick="copyToClipboard('#332216', '054')">
+                <div class="color-number">054</div>
+                <div class="color-info">#332216<br>RGB(51, 34, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #1d1210;" onclick="copyToClipboard('#1d1210', '055')">
+                <div class="color-number">055</div>
+                <div class="color-info">#1d1210<br>RGB(29, 18, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #240606;" onclick="copyToClipboard('#240606', '056')">
+                <div class="color-number">056</div>
+                <div class="color-info">#240606<br>RGB(36, 6, 6)</div>
+            </div>
+            <div class="color-square" style="background-color: #1e0d0c;" onclick="copyToClipboard('#1e0d0c', '057')">
+                <div class="color-number">057</div>
+                <div class="color-info">#1e0d0c<br>RGB(30, 13, 12)</div>
+            </div>
+            <div class="color-square" style="background-color: #201b21;" onclick="copyToClipboard('#201b21', '058')">
+                <div class="color-number">058</div>
+                <div class="color-info">#201b21<br>RGB(32, 27, 33)</div>
+            </div>
+            <div class="color-square" style="background-color: #0e0103;" onclick="copyToClipboard('#0e0103', '059')">
+                <div class="color-number">059</div>
+                <div class="color-info">#0e0103<br>RGB(14, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #140a07;" onclick="copyToClipboard('#140a07', '060')">
+                <div class="color-number">060</div>
+                <div class="color-info">#140a07<br>RGB(20, 10, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c040c;" onclick="copyToClipboard('#0c040c', '061')">
+                <div class="color-number">061</div>
+                <div class="color-info">#0c040c<br>RGB(12, 4, 12)</div>
+            </div>
+            <div class="color-square" style="background-color: #0b0a0b;" onclick="copyToClipboard('#0b0a0b', '062')">
+                <div class="color-number">062</div>
+                <div class="color-info">#0b0a0b<br>RGB(11, 10, 11)</div>
+            </div>
+            <div class="color-square" style="background-color: #150607;" onclick="copyToClipboard('#150607', '063')">
+                <div class="color-number">063</div>
+                <div class="color-info">#150607<br>RGB(21, 6, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c0705;" onclick="copyToClipboard('#0c0705', '064')">
+                <div class="color-number">064</div>
+                <div class="color-info">#0c0705<br>RGB(12, 7, 5)</div>
+            </div>
+            <div class="color-square" style="background-color: #06030a;" onclick="copyToClipboard('#06030a', '065')">
+                <div class="color-number">065</div>
+                <div class="color-info">#06030a<br>RGB(6, 3, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #020103;" onclick="copyToClipboard('#020103', '066')">
+                <div class="color-number">066</div>
+                <div class="color-info">#020103<br>RGB(2, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c0404;" onclick="copyToClipboard('#0c0404', '067')">
+                <div class="color-number">067</div>
+                <div class="color-info">#0c0404<br>RGB(12, 4, 4)</div>
+            </div>
+            <div class="color-square" style="background-color: #0b0409;" onclick="copyToClipboard('#0b0409', '068')">
+                <div class="color-number">068</div>
+                <div class="color-info">#0b0409<br>RGB(11, 4, 9)</div>
+            </div>
+            <div class="color-square" style="background-color: #0f0806;" onclick="copyToClipboard('#0f0806', '069')">
+                <div class="color-number">069</div>
+                <div class="color-info">#0f0806<br>RGB(15, 8, 6)</div>
+            </div>
+            <div class="color-square" style="background-color: #080610;" onclick="copyToClipboard('#080610', '070')">
+                <div class="color-number">070</div>
+                <div class="color-info">#080610<br>RGB(8, 6, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #070103;" onclick="copyToClipboard('#070103', '071')">
+                <div class="color-number">071</div>
+                <div class="color-info">#070103<br>RGB(7, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #050510;" onclick="copyToClipboard('#050510', '072')">
+                <div class="color-number">072</div>
+                <div class="color-info">#050510<br>RGB(5, 5, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '073')">
+                <div class="color-number">073</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #150804;" onclick="copyToClipboard('#150804', '074')">
+                <div class="color-number">074</div>
+                <div class="color-info">#150804<br>RGB(21, 8, 4)</div>
+            </div>
+            <div class="color-square" style="background-color: #17160d;" onclick="copyToClipboard('#17160d', '075')">
+                <div class="color-number">075</div>
+                <div class="color-info">#17160d<br>RGB(23, 22, 13)</div>
+            </div>
+            <div class="color-square" style="background-color: #6c3522;" onclick="copyToClipboard('#6c3522', '076')">
+                <div class="color-number">076</div>
+                <div class="color-info">#6c3522<br>RGB(108, 53, 34)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '077')">
+                <div class="color-number">077</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #110004;" onclick="copyToClipboard('#110004', '078')">
+                <div class="color-number">078</div>
+                <div class="color-info">#110004<br>RGB(17, 0, 4)</div>
+            </div>
+            <div class="color-square" style="background-color: #0f0305;" onclick="copyToClipboard('#0f0305', '079')">
+                <div class="color-number">079</div>
+                <div class="color-info">#0f0305<br>RGB(15, 3, 5)</div>
+            </div>
+            <div class="color-square" style="background-color: #211820;" onclick="copyToClipboard('#211820', '080')">
+                <div class="color-number">080</div>
+                <div class="color-info">#211820<br>RGB(33, 24, 32)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-2.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 081 to 130 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fcfbf9;" onclick="copyToClipboard('#fcfbf9', '081')">
+                <div class="color-number">081</div>
+                <div class="color-info">#fcfbf9<br>RGB(252, 251, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '082')">
+                <div class="color-number">082</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfb;" onclick="copyToClipboard('#fdfdfb', '083')">
+                <div class="color-number">083</div>
+                <div class="color-info">#fdfdfb<br>RGB(253, 253, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '084')">
+                <div class="color-number">084</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '085')">
+                <div class="color-number">085</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '086')">
+                <div class="color-number">086</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '087')">
+                <div class="color-number">087</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcf9;" onclick="copyToClipboard('#fdfcf9', '088')">
+                <div class="color-number">088</div>
+                <div class="color-info">#fdfcf9<br>RGB(253, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcf9;" onclick="copyToClipboard('#fdfcf9', '089')">
+                <div class="color-number">089</div>
+                <div class="color-info">#fdfcf9<br>RGB(253, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '090')">
+                <div class="color-number">090</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfb;" onclick="copyToClipboard('#fdfcfb', '091')">
+                <div class="color-number">091</div>
+                <div class="color-info">#fdfcfb<br>RGB(253, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '092')">
+                <div class="color-number">092</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf7;" onclick="copyToClipboard('#fcfcf7', '093')">
+                <div class="color-number">093</div>
+                <div class="color-info">#fcfcf7<br>RGB(252, 252, 247)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf6;" onclick="copyToClipboard('#fcfcf6', '094')">
+                <div class="color-number">094</div>
+                <div class="color-info">#fcfcf6<br>RGB(252, 252, 246)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '095')">
+                <div class="color-number">095</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfbf9;" onclick="copyToClipboard('#fcfbf9', '096')">
+                <div class="color-number">096</div>
+                <div class="color-info">#fcfbf9<br>RGB(252, 251, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '097')">
+                <div class="color-number">097</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '098')">
+                <div class="color-number">098</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf6;" onclick="copyToClipboard('#fcfcf6', '099')">
+                <div class="color-number">099</div>
+                <div class="color-info">#fcfcf6<br>RGB(252, 252, 246)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf7;" onclick="copyToClipboard('#fcfcf7', '100')">
+                <div class="color-number">100</div>
+                <div class="color-info">#fcfcf7<br>RGB(252, 252, 247)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfb;" onclick="copyToClipboard('#fdfdfb', '101')">
+                <div class="color-number">101</div>
+                <div class="color-info">#fdfdfb<br>RGB(253, 253, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdf9;" onclick="copyToClipboard('#fdfdf9', '102')">
+                <div class="color-number">102</div>
+                <div class="color-info">#fdfdf9<br>RGB(253, 253, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #806e54;" onclick="copyToClipboard('#806e54', '103')">
+                <div class="color-number">103</div>
+                <div class="color-info">#806e54<br>RGB(128, 110, 84)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '104')">
+                <div class="color-number">104</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '105')">
+                <div class="color-number">105</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '106')">
+                <div class="color-number">106</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '107')">
+                <div class="color-number">107</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfa;" onclick="copyToClipboard('#fdfdfa', '108')">
+                <div class="color-number">108</div>
+                <div class="color-info">#fdfdfa<br>RGB(253, 253, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '109')">
+                <div class="color-number">109</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '110')">
+                <div class="color-number">110</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #6b564a;" onclick="copyToClipboard('#6b564a', '111')">
+                <div class="color-number">111</div>
+                <div class="color-info">#6b564a<br>RGB(107, 86, 74)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '112')">
+                <div class="color-number">112</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '113')">
+                <div class="color-number">113</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '114')">
+                <div class="color-number">114</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '115')">
+                <div class="color-number">115</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf9;" onclick="copyToClipboard('#fcfcf9', '116')">
+                <div class="color-number">116</div>
+                <div class="color-info">#fcfcf9<br>RGB(252, 252, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '117')">
+                <div class="color-number">117</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf8;" onclick="copyToClipboard('#fcfcf8', '118')">
+                <div class="color-number">118</div>
+                <div class="color-info">#fcfcf8<br>RGB(252, 252, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #695d4b;" onclick="copyToClipboard('#695d4b', '119')">
+                <div class="color-number">119</div>
+                <div class="color-info">#695d4b<br>RGB(105, 93, 75)</div>
+            </div>
+            <div class="color-square" style="background-color: #fbfaf5;" onclick="copyToClipboard('#fbfaf5', '120')">
+                <div class="color-number">120</div>
+                <div class="color-info">#fbfaf5<br>RGB(251, 250, 245)</div>
+            </div>
+            <div class="color-square" style="background-color: #fbfaf5;" onclick="copyToClipboard('#fbfaf5', '121')">
+                <div class="color-number">121</div>
+                <div class="color-info">#fbfaf5<br>RGB(251, 250, 245)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf6;" onclick="copyToClipboard('#fcfcf6', '122')">
+                <div class="color-number">122</div>
+                <div class="color-info">#fcfcf6<br>RGB(252, 252, 246)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcf7;" onclick="copyToClipboard('#fcfcf7', '123')">
+                <div class="color-number">123</div>
+                <div class="color-info">#fcfcf7<br>RGB(252, 252, 247)</div>
+            </div>
+            <div class="color-square" style="background-color: #f9f9f4;" onclick="copyToClipboard('#f9f9f4', '124')">
+                <div class="color-number">124</div>
+                <div class="color-info">#f9f9f4<br>RGB(249, 249, 244)</div>
+            </div>
+            <div class="color-square" style="background-color: #f9f8f4;" onclick="copyToClipboard('#f9f8f4', '125')">
+                <div class="color-number">125</div>
+                <div class="color-info">#f9f8f4<br>RGB(249, 248, 244)</div>
+            </div>
+            <div class="color-square" style="background-color: #f6f5f0;" onclick="copyToClipboard('#f6f5f0', '126')">
+                <div class="color-number">126</div>
+                <div class="color-info">#f6f5f0<br>RGB(246, 245, 240)</div>
+            </div>
+            <div class="color-square" style="background-color: #f8f8f2;" onclick="copyToClipboard('#f8f8f2', '127')">
+                <div class="color-number">127</div>
+                <div class="color-info">#f8f8f2<br>RGB(248, 248, 242)</div>
+            </div>
+            <div class="color-square" style="background-color: #f5f5f1;" onclick="copyToClipboard('#f5f5f1', '128')">
+                <div class="color-number">128</div>
+                <div class="color-info">#f5f5f1<br>RGB(245, 245, 241)</div>
+            </div>
+            <div class="color-square" style="background-color: #f3f2ef;" onclick="copyToClipboard('#f3f2ef', '129')">
+                <div class="color-number">129</div>
+                <div class="color-info">#f3f2ef<br>RGB(243, 242, 239)</div>
+            </div>
+            <div class="color-square" style="background-color: #3d2d21;" onclick="copyToClipboard('#3d2d21', '130')">
+                <div class="color-number">130</div>
+                <div class="color-info">#3d2d21<br>RGB(61, 45, 33)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-3.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 131 to 180 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '131')">
+                <div class="color-number">131</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '132')">
+                <div class="color-number">132</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '133')">
+                <div class="color-number">133</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '134')">
+                <div class="color-number">134</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '135')">
+                <div class="color-number">135</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '136')">
+                <div class="color-number">136</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '137')">
+                <div class="color-number">137</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '138')">
+                <div class="color-number">138</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '139')">
+                <div class="color-number">139</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '140')">
+                <div class="color-number">140</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '141')">
+                <div class="color-number">141</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '142')">
+                <div class="color-number">142</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '143')">
+                <div class="color-number">143</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '144')">
+                <div class="color-number">144</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '145')">
+                <div class="color-number">145</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '146')">
+                <div class="color-number">146</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '147')">
+                <div class="color-number">147</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '148')">
+                <div class="color-number">148</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '149')">
+                <div class="color-number">149</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '150')">
+                <div class="color-number">150</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '151')">
+                <div class="color-number">151</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '152')">
+                <div class="color-number">152</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '153')">
+                <div class="color-number">153</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '154')">
+                <div class="color-number">154</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '155')">
+                <div class="color-number">155</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '156')">
+                <div class="color-number">156</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '157')">
+                <div class="color-number">157</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '158')">
+                <div class="color-number">158</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '159')">
+                <div class="color-number">159</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '160')">
+                <div class="color-number">160</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '161')">
+                <div class="color-number">161</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '162')">
+                <div class="color-number">162</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '163')">
+                <div class="color-number">163</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '164')">
+                <div class="color-number">164</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '165')">
+                <div class="color-number">165</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '166')">
+                <div class="color-number">166</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '167')">
+                <div class="color-number">167</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '168')">
+                <div class="color-number">168</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '169')">
+                <div class="color-number">169</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '170')">
+                <div class="color-number">170</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '171')">
+                <div class="color-number">171</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '172')">
+                <div class="color-number">172</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #140c0a;" onclick="copyToClipboard('#140c0a', '173')">
+                <div class="color-number">173</div>
+                <div class="color-info">#140c0a<br>RGB(20, 12, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #231312;" onclick="copyToClipboard('#231312', '174')">
+                <div class="color-number">174</div>
+                <div class="color-info">#231312<br>RGB(35, 19, 18)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '175')">
+                <div class="color-number">175</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefdfd;" onclick="copyToClipboard('#fefdfd', '176')">
+                <div class="color-number">176</div>
+                <div class="color-info">#fefdfd<br>RGB(254, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '177')">
+                <div class="color-number">177</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #906840;" onclick="copyToClipboard('#906840', '178')">
+                <div class="color-number">178</div>
+                <div class="color-info">#906840<br>RGB(144, 104, 64)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefefd;" onclick="copyToClipboard('#fefefd', '179')">
+                <div class="color-number">179</div>
+                <div class="color-info">#fefefd<br>RGB(254, 254, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '180')">
+                <div class="color-number">180</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-4.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 181 to 230 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fbfbfa;" onclick="copyToClipboard('#fbfbfa', '181')">
+                <div class="color-number">181</div>
+                <div class="color-info">#fbfbfa<br>RGB(251, 251, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '182')">
+                <div class="color-number">182</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '183')">
+                <div class="color-number">183</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '184')">
+                <div class="color-number">184</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '185')">
+                <div class="color-number">185</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '186')">
+                <div class="color-number">186</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '187')">
+                <div class="color-number">187</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '188')">
+                <div class="color-number">188</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '189')">
+                <div class="color-number">189</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfa;" onclick="copyToClipboard('#fcfcfa', '190')">
+                <div class="color-number">190</div>
+                <div class="color-info">#fcfcfa<br>RGB(252, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '191')">
+                <div class="color-number">191</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '192')">
+                <div class="color-number">192</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '193')">
+                <div class="color-number">193</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '194')">
+                <div class="color-number">194</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #3b1811;" onclick="copyToClipboard('#3b1811', '195')">
+                <div class="color-number">195</div>
+                <div class="color-info">#3b1811<br>RGB(59, 24, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #35170a;" onclick="copyToClipboard('#35170a', '196')">
+                <div class="color-number">196</div>
+                <div class="color-info">#35170a<br>RGB(53, 23, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '197')">
+                <div class="color-number">197</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #421808;" onclick="copyToClipboard('#421808', '198')">
+                <div class="color-number">198</div>
+                <div class="color-info">#421808<br>RGB(66, 24, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #2a0f05;" onclick="copyToClipboard('#2a0f05', '199')">
+                <div class="color-number">199</div>
+                <div class="color-info">#2a0f05<br>RGB(42, 15, 5)</div>
+            </div>
+            <div class="color-square" style="background-color: #351908;" onclick="copyToClipboard('#351908', '200')">
+                <div class="color-number">200</div>
+                <div class="color-info">#351908<br>RGB(53, 25, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #c6b262;" onclick="copyToClipboard('#c6b262', '201')">
+                <div class="color-number">201</div>
+                <div class="color-info">#c6b262<br>RGB(198, 178, 98)</div>
+            </div>
+            <div class="color-square" style="background-color: #cbbc28;" onclick="copyToClipboard('#cbbc28', '202')">
+                <div class="color-number">202</div>
+                <div class="color-info">#cbbc28<br>RGB(203, 188, 40)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfa;" onclick="copyToClipboard('#fdfdfa', '203')">
+                <div class="color-number">203</div>
+                <div class="color-info">#fdfdfa<br>RGB(253, 253, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #c4b86f;" onclick="copyToClipboard('#c4b86f', '204')">
+                <div class="color-number">204</div>
+                <div class="color-info">#c4b86f<br>RGB(196, 184, 111)</div>
+            </div>
+            <div class="color-square" style="background-color: #efcd29;" onclick="copyToClipboard('#efcd29', '205')">
+                <div class="color-number">205</div>
+                <div class="color-info">#efcd29<br>RGB(239, 205, 41)</div>
+            </div>
+            <div class="color-square" style="background-color: #e7c824;" onclick="copyToClipboard('#e7c824', '206')">
+                <div class="color-number">206</div>
+                <div class="color-info">#e7c824<br>RGB(231, 200, 36)</div>
+            </div>
+            <div class="color-square" style="background-color: #d29b25;" onclick="copyToClipboard('#d29b25', '207')">
+                <div class="color-number">207</div>
+                <div class="color-info">#d29b25<br>RGB(210, 155, 37)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdf8;" onclick="copyToClipboard('#fdfdf8', '208')">
+                <div class="color-number">208</div>
+                <div class="color-info">#fdfdf8<br>RGB(253, 253, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #a77f16;" onclick="copyToClipboard('#a77f16', '209')">
+                <div class="color-number">209</div>
+                <div class="color-info">#a77f16<br>RGB(167, 127, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdf8;" onclick="copyToClipboard('#fdfdf8', '210')">
+                <div class="color-number">210</div>
+                <div class="color-info">#fdfdf8<br>RGB(253, 253, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #ac6d17;" onclick="copyToClipboard('#ac6d17', '211')">
+                <div class="color-number">211</div>
+                <div class="color-info">#ac6d17<br>RGB(172, 109, 23)</div>
+            </div>
+            <div class="color-square" style="background-color: #be783d;" onclick="copyToClipboard('#be783d', '212')">
+                <div class="color-number">212</div>
+                <div class="color-info">#be783d<br>RGB(190, 120, 61)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdf9;" onclick="copyToClipboard('#fdfdf9', '213')">
+                <div class="color-number">213</div>
+                <div class="color-info">#fdfdf9<br>RGB(253, 253, 249)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfa;" onclick="copyToClipboard('#fdfcfa', '214')">
+                <div class="color-number">214</div>
+                <div class="color-info">#fdfcfa<br>RGB(253, 252, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #6b4007;" onclick="copyToClipboard('#6b4007', '215')">
+                <div class="color-number">215</div>
+                <div class="color-info">#6b4007<br>RGB(107, 64, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #6f4107;" onclick="copyToClipboard('#6f4107', '216')">
+                <div class="color-number">216</div>
+                <div class="color-info">#6f4107<br>RGB(111, 65, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #ebfb34;" onclick="copyToClipboard('#ebfb34', '217')">
+                <div class="color-number">217</div>
+                <div class="color-info">#ebfb34<br>RGB(235, 251, 52)</div>
+            </div>
+            <div class="color-square" style="background-color: #a8c53f;" onclick="copyToClipboard('#a8c53f', '218')">
+                <div class="color-number">218</div>
+                <div class="color-info">#a8c53f<br>RGB(168, 197, 63)</div>
+            </div>
+            <div class="color-square" style="background-color: #aac545;" onclick="copyToClipboard('#aac545', '219')">
+                <div class="color-number">219</div>
+                <div class="color-info">#aac545<br>RGB(170, 197, 69)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfb;" onclick="copyToClipboard('#fdfdfb', '220')">
+                <div class="color-number">220</div>
+                <div class="color-info">#fdfdfb<br>RGB(253, 253, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #0a371a;" onclick="copyToClipboard('#0a371a', '221')">
+                <div class="color-number">221</div>
+                <div class="color-info">#0a371a<br>RGB(10, 55, 26)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfb;" onclick="copyToClipboard('#fdfdfb', '222')">
+                <div class="color-number">222</div>
+                <div class="color-info">#fdfdfb<br>RGB(253, 253, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfdfa;" onclick="copyToClipboard('#fcfdfa', '223')">
+                <div class="color-number">223</div>
+                <div class="color-info">#fcfdfa<br>RGB(252, 253, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c2f13;" onclick="copyToClipboard('#0c2f13', '224')">
+                <div class="color-number">224</div>
+                <div class="color-info">#0c2f13<br>RGB(12, 47, 19)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c2e12;" onclick="copyToClipboard('#0c2e12', '225')">
+                <div class="color-number">225</div>
+                <div class="color-info">#0c2e12<br>RGB(12, 46, 18)</div>
+            </div>
+            <div class="color-square" style="background-color: #117a77;" onclick="copyToClipboard('#117a77', '226')">
+                <div class="color-number">226</div>
+                <div class="color-info">#117a77<br>RGB(17, 122, 119)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfdf8;" onclick="copyToClipboard('#fcfdf8', '227')">
+                <div class="color-number">227</div>
+                <div class="color-info">#fcfdf8<br>RGB(252, 253, 248)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfdfa;" onclick="copyToClipboard('#fcfdfa', '228')">
+                <div class="color-number">228</div>
+                <div class="color-info">#fcfdfa<br>RGB(252, 253, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #07534e;" onclick="copyToClipboard('#07534e', '229')">
+                <div class="color-number">229</div>
+                <div class="color-info">#07534e<br>RGB(7, 83, 78)</div>
+            </div>
+            <div class="color-square" style="background-color: #0a5c4a;" onclick="copyToClipboard('#0a5c4a', '230')">
+                <div class="color-number">230</div>
+                <div class="color-info">#0a5c4a<br>RGB(10, 92, 74)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-5.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 231 to 280 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #053528;" onclick="copyToClipboard('#053528', '231')">
+                <div class="color-number">231</div>
+                <div class="color-info">#053528<br>RGB(5, 53, 40)</div>
+            </div>
+            <div class="color-square" style="background-color: #0f5625;" onclick="copyToClipboard('#0f5625', '232')">
+                <div class="color-number">232</div>
+                <div class="color-info">#0f5625<br>RGB(15, 86, 37)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '233')">
+                <div class="color-number">233</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '234')">
+                <div class="color-number">234</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfdfd;" onclick="copyToClipboard('#fcfdfd', '235')">
+                <div class="color-number">235</div>
+                <div class="color-info">#fcfdfd<br>RGB(252, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '236')">
+                <div class="color-number">236</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfdfc;" onclick="copyToClipboard('#fcfdfc', '237')">
+                <div class="color-number">237</div>
+                <div class="color-info">#fcfdfc<br>RGB(252, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '238')">
+                <div class="color-number">238</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #094756;" onclick="copyToClipboard('#094756', '239')">
+                <div class="color-number">239</div>
+                <div class="color-info">#094756<br>RGB(9, 71, 86)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '240')">
+                <div class="color-number">240</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '241')">
+                <div class="color-number">241</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '242')">
+                <div class="color-number">242</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #235d62;" onclick="copyToClipboard('#235d62', '243')">
+                <div class="color-number">243</div>
+                <div class="color-info">#235d62<br>RGB(35, 93, 98)</div>
+            </div>
+            <div class="color-square" style="background-color: #094e4b;" onclick="copyToClipboard('#094e4b', '244')">
+                <div class="color-number">244</div>
+                <div class="color-info">#094e4b<br>RGB(9, 78, 75)</div>
+            </div>
+            <div class="color-square" style="background-color: #0a7d6c;" onclick="copyToClipboard('#0a7d6c', '245')">
+                <div class="color-number">245</div>
+                <div class="color-info">#0a7d6c<br>RGB(10, 125, 108)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '246')">
+                <div class="color-number">246</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '247')">
+                <div class="color-number">247</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #789092;" onclick="copyToClipboard('#789092', '248')">
+                <div class="color-number">248</div>
+                <div class="color-info">#789092<br>RGB(120, 144, 146)</div>
+            </div>
+            <div class="color-square" style="background-color: #829a9b;" onclick="copyToClipboard('#829a9b', '249')">
+                <div class="color-number">249</div>
+                <div class="color-info">#829a9b<br>RGB(130, 154, 155)</div>
+            </div>
+            <div class="color-square" style="background-color: #f3faf7;" onclick="copyToClipboard('#f3faf7', '250')">
+                <div class="color-number">250</div>
+                <div class="color-info">#f3faf7<br>RGB(243, 250, 247)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '251')">
+                <div class="color-number">251</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '252')">
+                <div class="color-number">252</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #084191;" onclick="copyToClipboard('#084191', '253')">
+                <div class="color-number">253</div>
+                <div class="color-info">#084191<br>RGB(8, 65, 145)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '254')">
+                <div class="color-number">254</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #051e6e;" onclick="copyToClipboard('#051e6e', '255')">
+                <div class="color-number">255</div>
+                <div class="color-info">#051e6e<br>RGB(5, 30, 110)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '256')">
+                <div class="color-number">256</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #04123f;" onclick="copyToClipboard('#04123f', '257')">
+                <div class="color-number">257</div>
+                <div class="color-info">#04123f<br>RGB(4, 18, 63)</div>
+            </div>
+            <div class="color-square" style="background-color: #06176c;" onclick="copyToClipboard('#06176c', '258')">
+                <div class="color-number">258</div>
+                <div class="color-info">#06176c<br>RGB(6, 23, 108)</div>
+            </div>
+            <div class="color-square" style="background-color: #031351;" onclick="copyToClipboard('#031351', '259')">
+                <div class="color-number">259</div>
+                <div class="color-info">#031351<br>RGB(3, 19, 81)</div>
+            </div>
+            <div class="color-square" style="background-color: #020733;" onclick="copyToClipboard('#020733', '260')">
+                <div class="color-number">260</div>
+                <div class="color-info">#020733<br>RGB(2, 7, 51)</div>
+            </div>
+            <div class="color-square" style="background-color: #02063f;" onclick="copyToClipboard('#02063f', '261')">
+                <div class="color-number">261</div>
+                <div class="color-info">#02063f<br>RGB(2, 6, 63)</div>
+            </div>
+            <div class="color-square" style="background-color: #030a3b;" onclick="copyToClipboard('#030a3b', '262')">
+                <div class="color-number">262</div>
+                <div class="color-info">#030a3b<br>RGB(3, 10, 59)</div>
+            </div>
+            <div class="color-square" style="background-color: #0a1144;" onclick="copyToClipboard('#0a1144', '263')">
+                <div class="color-number">263</div>
+                <div class="color-info">#0a1144<br>RGB(10, 17, 68)</div>
+            </div>
+            <div class="color-square" style="background-color: #04083b;" onclick="copyToClipboard('#04083b', '264')">
+                <div class="color-number">264</div>
+                <div class="color-info">#04083b<br>RGB(4, 8, 59)</div>
+            </div>
+            <div class="color-square" style="background-color: #010120;" onclick="copyToClipboard('#010120', '265')">
+                <div class="color-number">265</div>
+                <div class="color-info">#010120<br>RGB(1, 1, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #010011;" onclick="copyToClipboard('#010011', '266')">
+                <div class="color-number">266</div>
+                <div class="color-info">#010011<br>RGB(1, 0, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #01000d;" onclick="copyToClipboard('#01000d', '267')">
+                <div class="color-number">267</div>
+                <div class="color-info">#01000d<br>RGB(1, 0, 13)</div>
+            </div>
+            <div class="color-square" style="background-color: #040a48;" onclick="copyToClipboard('#040a48', '268')">
+                <div class="color-number">268</div>
+                <div class="color-info">#040a48<br>RGB(4, 10, 72)</div>
+            </div>
+            <div class="color-square" style="background-color: #09144d;" onclick="copyToClipboard('#09144d', '269')">
+                <div class="color-number">269</div>
+                <div class="color-info">#09144d<br>RGB(9, 20, 77)</div>
+            </div>
+            <div class="color-square" style="background-color: #06114e;" onclick="copyToClipboard('#06114e', '270')">
+                <div class="color-number">270</div>
+                <div class="color-info">#06114e<br>RGB(6, 17, 78)</div>
+            </div>
+            <div class="color-square" style="background-color: #01011f;" onclick="copyToClipboard('#01011f', '271')">
+                <div class="color-number">271</div>
+                <div class="color-info">#01011f<br>RGB(1, 1, 31)</div>
+            </div>
+            <div class="color-square" style="background-color: #010014;" onclick="copyToClipboard('#010014', '272')">
+                <div class="color-number">272</div>
+                <div class="color-info">#010014<br>RGB(1, 0, 20)</div>
+            </div>
+            <div class="color-square" style="background-color: #010126;" onclick="copyToClipboard('#010126', '273')">
+                <div class="color-number">273</div>
+                <div class="color-info">#010126<br>RGB(1, 1, 38)</div>
+            </div>
+            <div class="color-square" style="background-color: #01002c;" onclick="copyToClipboard('#01002c', '274')">
+                <div class="color-number">274</div>
+                <div class="color-info">#01002c<br>RGB(1, 0, 44)</div>
+            </div>
+            <div class="color-square" style="background-color: #020620;" onclick="copyToClipboard('#020620', '275')">
+                <div class="color-number">275</div>
+                <div class="color-info">#020620<br>RGB(2, 6, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #020724;" onclick="copyToClipboard('#020724', '276')">
+                <div class="color-number">276</div>
+                <div class="color-info">#020724<br>RGB(2, 7, 36)</div>
+            </div>
+            <div class="color-square" style="background-color: #010117;" onclick="copyToClipboard('#010117', '277')">
+                <div class="color-number">277</div>
+                <div class="color-info">#010117<br>RGB(1, 1, 23)</div>
+            </div>
+            <div class="color-square" style="background-color: #010121;" onclick="copyToClipboard('#010121', '278')">
+                <div class="color-number">278</div>
+                <div class="color-info">#010121<br>RGB(1, 1, 33)</div>
+            </div>
+            <div class="color-square" style="background-color: #010004;" onclick="copyToClipboard('#010004', '279')">
+                <div class="color-number">279</div>
+                <div class="color-info">#010004<br>RGB(1, 0, 4)</div>
+            </div>
+            <div class="color-square" style="background-color: #020532;" onclick="copyToClipboard('#020532', '280')">
+                <div class="color-number">280</div>
+                <div class="color-info">#020532<br>RGB(2, 5, 50)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-6.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 281 to 330 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '281')">
+                <div class="color-number">281</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '282')">
+                <div class="color-number">282</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #041320;" onclick="copyToClipboard('#041320', '283')">
+                <div class="color-number">283</div>
+                <div class="color-info">#041320<br>RGB(4, 19, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #02071a;" onclick="copyToClipboard('#02071a', '284')">
+                <div class="color-number">284</div>
+                <div class="color-info">#02071a<br>RGB(2, 7, 26)</div>
+            </div>
+            <div class="color-square" style="background-color: #03071d;" onclick="copyToClipboard('#03071d', '285')">
+                <div class="color-number">285</div>
+                <div class="color-info">#03071d<br>RGB(3, 7, 29)</div>
+            </div>
+            <div class="color-square" style="background-color: #020812;" onclick="copyToClipboard('#020812', '286')">
+                <div class="color-number">286</div>
+                <div class="color-info">#020812<br>RGB(2, 8, 18)</div>
+            </div>
+            <div class="color-square" style="background-color: #030617;" onclick="copyToClipboard('#030617', '287')">
+                <div class="color-number">287</div>
+                <div class="color-info">#030617<br>RGB(3, 6, 23)</div>
+            </div>
+            <div class="color-square" style="background-color: #040712;" onclick="copyToClipboard('#040712', '288')">
+                <div class="color-number">288</div>
+                <div class="color-info">#040712<br>RGB(4, 7, 18)</div>
+            </div>
+            <div class="color-square" style="background-color: #02020c;" onclick="copyToClipboard('#02020c', '289')">
+                <div class="color-number">289</div>
+                <div class="color-info">#02020c<br>RGB(2, 2, 12)</div>
+            </div>
+            <div class="color-square" style="background-color: #010007;" onclick="copyToClipboard('#010007', '290')">
+                <div class="color-number">290</div>
+                <div class="color-info">#010007<br>RGB(1, 0, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #050f1c;" onclick="copyToClipboard('#050f1c', '291')">
+                <div class="color-number">291</div>
+                <div class="color-info">#050f1c<br>RGB(5, 15, 28)</div>
+            </div>
+            <div class="color-square" style="background-color: #02010f;" onclick="copyToClipboard('#02010f', '292')">
+                <div class="color-number">292</div>
+                <div class="color-info">#02010f<br>RGB(2, 1, 15)</div>
+            </div>
+            <div class="color-square" style="background-color: #010106;" onclick="copyToClipboard('#010106', '293')">
+                <div class="color-number">293</div>
+                <div class="color-info">#010106<br>RGB(1, 1, 6)</div>
+            </div>
+            <div class="color-square" style="background-color: #9e686c;" onclick="copyToClipboard('#9e686c', '294')">
+                <div class="color-number">294</div>
+                <div class="color-info">#9e686c<br>RGB(158, 104, 108)</div>
+            </div>
+            <div class="color-square" style="background-color: #fef9fc;" onclick="copyToClipboard('#fef9fc', '295')">
+                <div class="color-number">295</div>
+                <div class="color-info">#fef9fc<br>RGB(254, 249, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '296')">
+                <div class="color-number">296</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '297')">
+                <div class="color-number">297</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdf3fb;" onclick="copyToClipboard('#fdf3fb', '298')">
+                <div class="color-number">298</div>
+                <div class="color-info">#fdf3fb<br>RGB(253, 243, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdf4fc;" onclick="copyToClipboard('#fdf4fc', '299')">
+                <div class="color-number">299</div>
+                <div class="color-info">#fdf4fc<br>RGB(253, 244, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #ebc2e1;" onclick="copyToClipboard('#ebc2e1', '300')">
+                <div class="color-number">300</div>
+                <div class="color-info">#ebc2e1<br>RGB(235, 194, 225)</div>
+            </div>
+            <div class="color-square" style="background-color: #d75971;" onclick="copyToClipboard('#d75971', '301')">
+                <div class="color-number">301</div>
+                <div class="color-info">#d75971<br>RGB(215, 89, 113)</div>
+            </div>
+            <div class="color-square" style="background-color: #a9374b;" onclick="copyToClipboard('#a9374b', '302')">
+                <div class="color-number">302</div>
+                <div class="color-info">#a9374b<br>RGB(169, 55, 75)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfb;" onclick="copyToClipboard('#fdfcfb', '303')">
+                <div class="color-number">303</div>
+                <div class="color-info">#fdfcfb<br>RGB(253, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfafa;" onclick="copyToClipboard('#fcfafa', '304')">
+                <div class="color-number">304</div>
+                <div class="color-info">#fcfafa<br>RGB(252, 250, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #b43a57;" onclick="copyToClipboard('#b43a57', '305')">
+                <div class="color-number">305</div>
+                <div class="color-info">#b43a57<br>RGB(180, 58, 87)</div>
+            </div>
+            <div class="color-square" style="background-color: #d23b6c;" onclick="copyToClipboard('#d23b6c', '306')">
+                <div class="color-number">306</div>
+                <div class="color-info">#d23b6c<br>RGB(210, 59, 108)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '307')">
+                <div class="color-number">307</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #ee3364;" onclick="copyToClipboard('#ee3364', '308')">
+                <div class="color-number">308</div>
+                <div class="color-info">#ee3364<br>RGB(238, 51, 100)</div>
+            </div>
+            <div class="color-square" style="background-color: #f62459;" onclick="copyToClipboard('#f62459', '309')">
+                <div class="color-number">309</div>
+                <div class="color-info">#f62459<br>RGB(246, 36, 89)</div>
+            </div>
+            <div class="color-square" style="background-color: #f85572;" onclick="copyToClipboard('#f85572', '310')">
+                <div class="color-number">310</div>
+                <div class="color-info">#f85572<br>RGB(248, 85, 114)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '311')">
+                <div class="color-number">311</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '312')">
+                <div class="color-number">312</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #f88126;" onclick="copyToClipboard('#f88126', '313')">
+                <div class="color-number">313</div>
+                <div class="color-info">#f88126<br>RGB(248, 129, 38)</div>
+            </div>
+            <div class="color-square" style="background-color: #db2d44;" onclick="copyToClipboard('#db2d44', '314')">
+                <div class="color-number">314</div>
+                <div class="color-info">#db2d44<br>RGB(219, 45, 68)</div>
+            </div>
+            <div class="color-square" style="background-color: #bf3a40;" onclick="copyToClipboard('#bf3a40', '315')">
+                <div class="color-number">315</div>
+                <div class="color-info">#bf3a40<br>RGB(191, 58, 64)</div>
+            </div>
+            <div class="color-square" style="background-color: #c00d30;" onclick="copyToClipboard('#c00d30', '316')">
+                <div class="color-number">316</div>
+                <div class="color-info">#c00d30<br>RGB(192, 13, 48)</div>
+            </div>
+            <div class="color-square" style="background-color: #ab071c;" onclick="copyToClipboard('#ab071c', '317')">
+                <div class="color-number">317</div>
+                <div class="color-info">#ab071c<br>RGB(171, 7, 28)</div>
+            </div>
+            <div class="color-square" style="background-color: #901e22;" onclick="copyToClipboard('#901e22', '318')">
+                <div class="color-number">318</div>
+                <div class="color-info">#901e22<br>RGB(144, 30, 34)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfbfc;" onclick="copyToClipboard('#fdfbfc', '319')">
+                <div class="color-number">319</div>
+                <div class="color-info">#fdfbfc<br>RGB(253, 251, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #950d0c;" onclick="copyToClipboard('#950d0c', '320')">
+                <div class="color-number">320</div>
+                <div class="color-info">#950d0c<br>RGB(149, 13, 12)</div>
+            </div>
+            <div class="color-square" style="background-color: #60090b;" onclick="copyToClipboard('#60090b', '321')">
+                <div class="color-number">321</div>
+                <div class="color-info">#60090b<br>RGB(96, 9, 11)</div>
+            </div>
+            <div class="color-square" style="background-color: #960d19;" onclick="copyToClipboard('#960d19', '322')">
+                <div class="color-number">322</div>
+                <div class="color-info">#960d19<br>RGB(150, 13, 25)</div>
+            </div>
+            <div class="color-square" style="background-color: #8c0a11;" onclick="copyToClipboard('#8c0a11', '323')">
+                <div class="color-number">323</div>
+                <div class="color-info">#8c0a11<br>RGB(140, 10, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #9b0d0b;" onclick="copyToClipboard('#9b0d0b', '324')">
+                <div class="color-number">324</div>
+                <div class="color-info">#9b0d0b<br>RGB(155, 13, 11)</div>
+            </div>
+            <div class="color-square" style="background-color: #953027;" onclick="copyToClipboard('#953027', '325')">
+                <div class="color-number">325</div>
+                <div class="color-info">#953027<br>RGB(149, 48, 39)</div>
+            </div>
+            <div class="color-square" style="background-color: #a82716;" onclick="copyToClipboard('#a82716', '326')">
+                <div class="color-number">326</div>
+                <div class="color-info">#a82716<br>RGB(168, 39, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #7b1413;" onclick="copyToClipboard('#7b1413', '327')">
+                <div class="color-number">327</div>
+                <div class="color-info">#7b1413<br>RGB(123, 20, 19)</div>
+            </div>
+            <div class="color-square" style="background-color: #580407;" onclick="copyToClipboard('#580407', '328')">
+                <div class="color-number">328</div>
+                <div class="color-info">#580407<br>RGB(88, 4, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #602015;" onclick="copyToClipboard('#602015', '329')">
+                <div class="color-number">329</div>
+                <div class="color-info">#602015<br>RGB(96, 32, 21)</div>
+            </div>
+            <div class="color-square" style="background-color: #52170e;" onclick="copyToClipboard('#52170e', '330')">
+                <div class="color-number">330</div>
+                <div class="color-info">#52170e<br>RGB(82, 23, 14)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-7.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 331 to 380 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '331')">
+                <div class="color-number">331</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefcfd;" onclick="copyToClipboard('#fefcfd', '332')">
+                <div class="color-number">332</div>
+                <div class="color-info">#fefcfd<br>RGB(254, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefcfd;" onclick="copyToClipboard('#fefcfd', '333')">
+                <div class="color-number">333</div>
+                <div class="color-info">#fefcfd<br>RGB(254, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '334')">
+                <div class="color-number">334</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fefcfd;" onclick="copyToClipboard('#fefcfd', '335')">
+                <div class="color-number">335</div>
+                <div class="color-info">#fefcfd<br>RGB(254, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '336')">
+                <div class="color-number">336</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '337')">
+                <div class="color-number">337</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #7f0a3a;" onclick="copyToClipboard('#7f0a3a', '338')">
+                <div class="color-number">338</div>
+                <div class="color-info">#7f0a3a<br>RGB(127, 10, 58)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '339')">
+                <div class="color-number">339</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '340')">
+                <div class="color-number">340</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '341')">
+                <div class="color-number">341</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '342')">
+                <div class="color-number">342</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '343')">
+                <div class="color-number">343</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #950542;" onclick="copyToClipboard('#950542', '344')">
+                <div class="color-number">344</div>
+                <div class="color-info">#950542<br>RGB(149, 5, 66)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '345')">
+                <div class="color-number">345</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '346')">
+                <div class="color-number">346</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #850f54;" onclick="copyToClipboard('#850f54', '347')">
+                <div class="color-number">347</div>
+                <div class="color-info">#850f54<br>RGB(133, 15, 84)</div>
+            </div>
+            <div class="color-square" style="background-color: #860a66;" onclick="copyToClipboard('#860a66', '348')">
+                <div class="color-number">348</div>
+                <div class="color-info">#860a66<br>RGB(134, 10, 102)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '349')">
+                <div class="color-number">349</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '350')">
+                <div class="color-number">350</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '351')">
+                <div class="color-number">351</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #7c1351;" onclick="copyToClipboard('#7c1351', '352')">
+                <div class="color-number">352</div>
+                <div class="color-info">#7c1351<br>RGB(124, 19, 81)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '353')">
+                <div class="color-number">353</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #72084e;" onclick="copyToClipboard('#72084e', '354')">
+                <div class="color-number">354</div>
+                <div class="color-info">#72084e<br>RGB(114, 8, 78)</div>
+            </div>
+            <div class="color-square" style="background-color: #840e55;" onclick="copyToClipboard('#840e55', '355')">
+                <div class="color-number">355</div>
+                <div class="color-info">#840e55<br>RGB(132, 14, 85)</div>
+            </div>
+            <div class="color-square" style="background-color: #7b0c4b;" onclick="copyToClipboard('#7b0c4b', '356')">
+                <div class="color-number">356</div>
+                <div class="color-info">#7b0c4b<br>RGB(123, 12, 75)</div>
+            </div>
+            <div class="color-square" style="background-color: #500838;" onclick="copyToClipboard('#500838', '357')">
+                <div class="color-number">357</div>
+                <div class="color-info">#500838<br>RGB(80, 8, 56)</div>
+            </div>
+            <div class="color-square" style="background-color: #640a4e;" onclick="copyToClipboard('#640a4e', '358')">
+                <div class="color-number">358</div>
+                <div class="color-info">#640a4e<br>RGB(100, 10, 78)</div>
+            </div>
+            <div class="color-square" style="background-color: #5c0d47;" onclick="copyToClipboard('#5c0d47', '359')">
+                <div class="color-number">359</div>
+                <div class="color-info">#5c0d47<br>RGB(92, 13, 71)</div>
+            </div>
+            <div class="color-square" style="background-color: #480330;" onclick="copyToClipboard('#480330', '360')">
+                <div class="color-number">360</div>
+                <div class="color-info">#480330<br>RGB(72, 3, 48)</div>
+            </div>
+            <div class="color-square" style="background-color: #650738;" onclick="copyToClipboard('#650738', '361')">
+                <div class="color-number">361</div>
+                <div class="color-info">#650738<br>RGB(101, 7, 56)</div>
+            </div>
+            <div class="color-square" style="background-color: #37051b;" onclick="copyToClipboard('#37051b', '362')">
+                <div class="color-number">362</div>
+                <div class="color-info">#37051b<br>RGB(55, 5, 27)</div>
+            </div>
+            <div class="color-square" style="background-color: #310321;" onclick="copyToClipboard('#310321', '363')">
+                <div class="color-number">363</div>
+                <div class="color-info">#310321<br>RGB(49, 3, 33)</div>
+            </div>
+            <div class="color-square" style="background-color: #12031d;" onclick="copyToClipboard('#12031d', '364')">
+                <div class="color-number">364</div>
+                <div class="color-info">#12031d<br>RGB(18, 3, 29)</div>
+            </div>
+            <div class="color-square" style="background-color: #150213;" onclick="copyToClipboard('#150213', '365')">
+                <div class="color-number">365</div>
+                <div class="color-info">#150213<br>RGB(21, 2, 19)</div>
+            </div>
+            <div class="color-square" style="background-color: #1d0c30;" onclick="copyToClipboard('#1d0c30', '366')">
+                <div class="color-number">366</div>
+                <div class="color-info">#1d0c30<br>RGB(29, 12, 48)</div>
+            </div>
+            <div class="color-square" style="background-color: #0b0224;" onclick="copyToClipboard('#0b0224', '367')">
+                <div class="color-number">367</div>
+                <div class="color-info">#0b0224<br>RGB(11, 2, 36)</div>
+            </div>
+            <div class="color-square" style="background-color: #11061c;" onclick="copyToClipboard('#11061c', '368')">
+                <div class="color-number">368</div>
+                <div class="color-info">#11061c<br>RGB(17, 6, 28)</div>
+            </div>
+            <div class="color-square" style="background-color: #02010a;" onclick="copyToClipboard('#02010a', '369')">
+                <div class="color-number">369</div>
+                <div class="color-info">#02010a<br>RGB(2, 1, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #080107;" onclick="copyToClipboard('#080107', '370')">
+                <div class="color-number">370</div>
+                <div class="color-info">#080107<br>RGB(8, 1, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #070103;" onclick="copyToClipboard('#070103', '371')">
+                <div class="color-number">371</div>
+                <div class="color-info">#070103<br>RGB(7, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #090102;" onclick="copyToClipboard('#090102', '372')">
+                <div class="color-number">372</div>
+                <div class="color-info">#090102<br>RGB(9, 1, 2)</div>
+            </div>
+            <div class="color-square" style="background-color: #1d030d;" onclick="copyToClipboard('#1d030d', '373')">
+                <div class="color-number">373</div>
+                <div class="color-info">#1d030d<br>RGB(29, 3, 13)</div>
+            </div>
+            <div class="color-square" style="background-color: #0c0103;" onclick="copyToClipboard('#0c0103', '374')">
+                <div class="color-number">374</div>
+                <div class="color-info">#0c0103<br>RGB(12, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #12020c;" onclick="copyToClipboard('#12020c', '375')">
+                <div class="color-number">375</div>
+                <div class="color-info">#12020c<br>RGB(18, 2, 12)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfbfd;" onclick="copyToClipboard('#fdfbfd', '376')">
+                <div class="color-number">376</div>
+                <div class="color-info">#fdfbfd<br>RGB(253, 251, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #330110;" onclick="copyToClipboard('#330110', '377')">
+                <div class="color-number">377</div>
+                <div class="color-info">#330110<br>RGB(51, 1, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #330416;" onclick="copyToClipboard('#330416', '378')">
+                <div class="color-number">378</div>
+                <div class="color-info">#330416<br>RGB(51, 4, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #23010a;" onclick="copyToClipboard('#23010a', '379')">
+                <div class="color-number">379</div>
+                <div class="color-info">#23010a<br>RGB(35, 1, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfbfc;" onclick="copyToClipboard('#fdfbfc', '380')">
+                <div class="color-number">380</div>
+                <div class="color-info">#fdfbfc<br>RGB(253, 251, 252)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-8.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 381 to 430 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #250414;" onclick="copyToClipboard('#250414', '381')">
+                <div class="color-number">381</div>
+                <div class="color-info">#250414<br>RGB(37, 4, 20)</div>
+            </div>
+            <div class="color-square" style="background-color: #200209;" onclick="copyToClipboard('#200209', '382')">
+                <div class="color-number">382</div>
+                <div class="color-info">#200209<br>RGB(32, 2, 9)</div>
+            </div>
+            <div class="color-square" style="background-color: #310819;" onclick="copyToClipboard('#310819', '383')">
+                <div class="color-number">383</div>
+                <div class="color-info">#310819<br>RGB(49, 8, 25)</div>
+            </div>
+            <div class="color-square" style="background-color: #370915;" onclick="copyToClipboard('#370915', '384')">
+                <div class="color-number">384</div>
+                <div class="color-info">#370915<br>RGB(55, 9, 21)</div>
+            </div>
+            <div class="color-square" style="background-color: #25040e;" onclick="copyToClipboard('#25040e', '385')">
+                <div class="color-number">385</div>
+                <div class="color-info">#25040e<br>RGB(37, 4, 14)</div>
+            </div>
+            <div class="color-square" style="background-color: #220108;" onclick="copyToClipboard('#220108', '386')">
+                <div class="color-number">386</div>
+                <div class="color-info">#220108<br>RGB(34, 1, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #1d020d;" onclick="copyToClipboard('#1d020d', '387')">
+                <div class="color-number">387</div>
+                <div class="color-info">#1d020d<br>RGB(29, 2, 13)</div>
+            </div>
+            <div class="color-square" style="background-color: #200207;" onclick="copyToClipboard('#200207', '388')">
+                <div class="color-number">388</div>
+                <div class="color-info">#200207<br>RGB(32, 2, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #160207;" onclick="copyToClipboard('#160207', '389')">
+                <div class="color-number">389</div>
+                <div class="color-info">#160207<br>RGB(22, 2, 7)</div>
+            </div>
+            <div class="color-square" style="background-color: #230208;" onclick="copyToClipboard('#230208', '390')">
+                <div class="color-number">390</div>
+                <div class="color-info">#230208<br>RGB(35, 2, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #300610;" onclick="copyToClipboard('#300610', '391')">
+                <div class="color-number">391</div>
+                <div class="color-info">#300610<br>RGB(48, 6, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #32030f;" onclick="copyToClipboard('#32030f', '392')">
+                <div class="color-number">392</div>
+                <div class="color-info">#32030f<br>RGB(50, 3, 15)</div>
+            </div>
+            <div class="color-square" style="background-color: #2d040d;" onclick="copyToClipboard('#2d040d', '393')">
+                <div class="color-number">393</div>
+                <div class="color-info">#2d040d<br>RGB(45, 4, 13)</div>
+            </div>
+            <div class="color-square" style="background-color: #36040a;" onclick="copyToClipboard('#36040a', '394')">
+                <div class="color-number">394</div>
+                <div class="color-info">#36040a<br>RGB(54, 4, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #12040a;" onclick="copyToClipboard('#12040a', '395')">
+                <div class="color-number">395</div>
+                <div class="color-info">#12040a<br>RGB(18, 4, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #1e0e16;" onclick="copyToClipboard('#1e0e16', '396')">
+                <div class="color-number">396</div>
+                <div class="color-info">#1e0e16<br>RGB(30, 14, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #1c050e;" onclick="copyToClipboard('#1c050e', '397')">
+                <div class="color-number">397</div>
+                <div class="color-info">#1c050e<br>RGB(28, 5, 14)</div>
+            </div>
+            <div class="color-square" style="background-color: #470a15;" onclick="copyToClipboard('#470a15', '398')">
+                <div class="color-number">398</div>
+                <div class="color-info">#470a15<br>RGB(71, 10, 21)</div>
+            </div>
+            <div class="color-square" style="background-color: #35040b;" onclick="copyToClipboard('#35040b', '399')">
+                <div class="color-number">399</div>
+                <div class="color-info">#35040b<br>RGB(53, 4, 11)</div>
+            </div>
+            <div class="color-square" style="background-color: #2e0206;" onclick="copyToClipboard('#2e0206', '400')">
+                <div class="color-number">400</div>
+                <div class="color-info">#2e0206<br>RGB(46, 2, 6)</div>
+            </div>
+            <div class="color-square" style="background-color: #d21745;" onclick="copyToClipboard('#d21745', '401')">
+                <div class="color-number">401</div>
+                <div class="color-info">#d21745<br>RGB(210, 23, 69)</div>
+            </div>
+            <div class="color-square" style="background-color: #ca093e;" onclick="copyToClipboard('#ca093e', '402')">
+                <div class="color-number">402</div>
+                <div class="color-info">#ca093e<br>RGB(202, 9, 62)</div>
+            </div>
+            <div class="color-square" style="background-color: #bb0820;" onclick="copyToClipboard('#bb0820', '403')">
+                <div class="color-number">403</div>
+                <div class="color-info">#bb0820<br>RGB(187, 8, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #730416;" onclick="copyToClipboard('#730416', '404')">
+                <div class="color-number">404</div>
+                <div class="color-info">#730416<br>RGB(115, 4, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #740319;" onclick="copyToClipboard('#740319', '405')">
+                <div class="color-number">405</div>
+                <div class="color-info">#740319<br>RGB(116, 3, 25)</div>
+            </div>
+            <div class="color-square" style="background-color: #7e0520;" onclick="copyToClipboard('#7e0520', '406')">
+                <div class="color-number">406</div>
+                <div class="color-info">#7e0520<br>RGB(126, 5, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #84071f;" onclick="copyToClipboard('#84071f', '407')">
+                <div class="color-number">407</div>
+                <div class="color-info">#84071f<br>RGB(132, 7, 31)</div>
+            </div>
+            <div class="color-square" style="background-color: #66020e;" onclick="copyToClipboard('#66020e', '408')">
+                <div class="color-number">408</div>
+                <div class="color-info">#66020e<br>RGB(102, 2, 14)</div>
+            </div>
+            <div class="color-square" style="background-color: #990b19;" onclick="copyToClipboard('#990b19', '409')">
+                <div class="color-number">409</div>
+                <div class="color-info">#990b19<br>RGB(153, 11, 25)</div>
+            </div>
+            <div class="color-square" style="background-color: #65020b;" onclick="copyToClipboard('#65020b', '410')">
+                <div class="color-number">410</div>
+                <div class="color-info">#65020b<br>RGB(101, 2, 11)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '411')">
+                <div class="color-number">411</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #8b0720;" onclick="copyToClipboard('#8b0720', '412')">
+                <div class="color-number">412</div>
+                <div class="color-info">#8b0720<br>RGB(139, 7, 32)</div>
+            </div>
+            <div class="color-square" style="background-color: #8c061e;" onclick="copyToClipboard('#8c061e', '413')">
+                <div class="color-number">413</div>
+                <div class="color-info">#8c061e<br>RGB(140, 6, 30)</div>
+            </div>
+            <div class="color-square" style="background-color: #610310;" onclick="copyToClipboard('#610310', '414')">
+                <div class="color-number">414</div>
+                <div class="color-info">#610310<br>RGB(97, 3, 16)</div>
+            </div>
+            <div class="color-square" style="background-color: #83071a;" onclick="copyToClipboard('#83071a', '415')">
+                <div class="color-number">415</div>
+                <div class="color-info">#83071a<br>RGB(131, 7, 26)</div>
+            </div>
+            <div class="color-square" style="background-color: #600211;" onclick="copyToClipboard('#600211', '416')">
+                <div class="color-number">416</div>
+                <div class="color-info">#600211<br>RGB(96, 2, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #540109;" onclick="copyToClipboard('#540109', '417')">
+                <div class="color-number">417</div>
+                <div class="color-info">#540109<br>RGB(84, 1, 9)</div>
+            </div>
+            <div class="color-square" style="background-color: #59010a;" onclick="copyToClipboard('#59010a', '418')">
+                <div class="color-number">418</div>
+                <div class="color-info">#59010a<br>RGB(89, 1, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #680316;" onclick="copyToClipboard('#680316', '419')">
+                <div class="color-number">419</div>
+                <div class="color-info">#680316<br>RGB(104, 3, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #5b010e;" onclick="copyToClipboard('#5b010e', '420')">
+                <div class="color-number">420</div>
+                <div class="color-info">#5b010e<br>RGB(91, 1, 14)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '421')">
+                <div class="color-number">421</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #650216;" onclick="copyToClipboard('#650216', '422')">
+                <div class="color-number">422</div>
+                <div class="color-info">#650216<br>RGB(101, 2, 22)</div>
+            </div>
+            <div class="color-square" style="background-color: #40010a;" onclick="copyToClipboard('#40010a', '423')">
+                <div class="color-number">423</div>
+                <div class="color-info">#40010a<br>RGB(64, 1, 10)</div>
+            </div>
+            <div class="color-square" style="background-color: #670319;" onclick="copyToClipboard('#670319', '424')">
+                <div class="color-number">424</div>
+                <div class="color-info">#670319<br>RGB(103, 3, 25)</div>
+            </div>
+            <div class="color-square" style="background-color: #270208;" onclick="copyToClipboard('#270208', '425')">
+                <div class="color-number">425</div>
+                <div class="color-info">#270208<br>RGB(39, 2, 8)</div>
+            </div>
+            <div class="color-square" style="background-color: #91151e;" onclick="copyToClipboard('#91151e', '426')">
+                <div class="color-number">426</div>
+                <div class="color-info">#91151e<br>RGB(145, 21, 30)</div>
+            </div>
+            <div class="color-square" style="background-color: #7e0f14;" onclick="copyToClipboard('#7e0f14', '427')">
+                <div class="color-number">427</div>
+                <div class="color-info">#7e0f14<br>RGB(126, 15, 20)</div>
+            </div>
+            <div class="color-square" style="background-color: #4e0d11;" onclick="copyToClipboard('#4e0d11', '428')">
+                <div class="color-number">428</div>
+                <div class="color-info">#4e0d11<br>RGB(78, 13, 17)</div>
+            </div>
+            <div class="color-square" style="background-color: #450b0e;" onclick="copyToClipboard('#450b0e', '429')">
+                <div class="color-number">429</div>
+                <div class="color-info">#450b0e<br>RGB(69, 11, 14)</div>
+            </div>
+            <div class="color-square" style="background-color: #4d0a0e;" onclick="copyToClipboard('#4d0a0e', '430')">
+                <div class="color-number">430</div>
+                <div class="color-info">#4d0a0e<br>RGB(77, 10, 14)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-9.jpg</div>
+        <div class="grid-info">
+            10 rows × 5 columns - Colors 431 to 480 (50 colors)
+        </div>
+        <div class="color-grid">
+            <div class="color-square" style="background-color: #fcfbfb;" onclick="copyToClipboard('#fcfbfb', '431')">
+                <div class="color-number">431</div>
+                <div class="color-info">#fcfbfb<br>RGB(252, 251, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '432')">
+                <div class="color-number">432</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #3c0104;" onclick="copyToClipboard('#3c0104', '433')">
+                <div class="color-number">433</div>
+                <div class="color-info">#3c0104<br>RGB(60, 1, 4)</div>
+            </div>
+            <div class="color-square" style="background-color: #320103;" onclick="copyToClipboard('#320103', '434')">
+                <div class="color-number">434</div>
+                <div class="color-info">#320103<br>RGB(50, 1, 3)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '435')">
+                <div class="color-number">435</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #2a0102;" onclick="copyToClipboard('#2a0102', '436')">
+                <div class="color-number">436</div>
+                <div class="color-info">#2a0102<br>RGB(42, 1, 2)</div>
+            </div>
+            <div class="color-square" style="background-color: #300105;" onclick="copyToClipboard('#300105', '437')">
+                <div class="color-number">437</div>
+                <div class="color-info">#300105<br>RGB(48, 1, 5)</div>
+            </div>
+            <div class="color-square" style="background-color: #2f0205;" onclick="copyToClipboard('#2f0205', '438')">
+                <div class="color-number">438</div>
+                <div class="color-info">#2f0205<br>RGB(47, 2, 5)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '439')">
+                <div class="color-number">439</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfafa;" onclick="copyToClipboard('#fcfafa', '440')">
+                <div class="color-number">440</div>
+                <div class="color-info">#fcfafa<br>RGB(252, 250, 250)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '441')">
+                <div class="color-number">441</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #89817e;" onclick="copyToClipboard('#89817e', '442')">
+                <div class="color-number">442</div>
+                <div class="color-info">#89817e<br>RGB(137, 129, 126)</div>
+            </div>
+            <div class="color-square" style="background-color: #8c7e7f;" onclick="copyToClipboard('#8c7e7f', '443')">
+                <div class="color-number">443</div>
+                <div class="color-info">#8c7e7f<br>RGB(140, 126, 127)</div>
+            </div>
+            <div class="color-square" style="background-color: #8c7f80;" onclick="copyToClipboard('#8c7f80', '444')">
+                <div class="color-number">444</div>
+                <div class="color-info">#8c7f80<br>RGB(140, 127, 128)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfbfb;" onclick="copyToClipboard('#fcfbfb', '445')">
+                <div class="color-number">445</div>
+                <div class="color-info">#fcfbfb<br>RGB(252, 251, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfbfb;" onclick="copyToClipboard('#fcfbfb', '446')">
+                <div class="color-number">446</div>
+                <div class="color-info">#fcfbfb<br>RGB(252, 251, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fafbfb;" onclick="copyToClipboard('#fafbfb', '447')">
+                <div class="color-number">447</div>
+                <div class="color-info">#fafbfb<br>RGB(250, 251, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #928686;" onclick="copyToClipboard('#928686', '448')">
+                <div class="color-number">448</div>
+                <div class="color-info">#928686<br>RGB(146, 134, 134)</div>
+            </div>
+            <div class="color-square" style="background-color: #8d8177;" onclick="copyToClipboard('#8d8177', '449')">
+                <div class="color-number">449</div>
+                <div class="color-info">#8d8177<br>RGB(141, 129, 119)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '450')">
+                <div class="color-number">450</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '451')">
+                <div class="color-number">451</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '452')">
+                <div class="color-number">452</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '453')">
+                <div class="color-number">453</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '454')">
+                <div class="color-number">454</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfc;" onclick="copyToClipboard('#fdfcfc', '455')">
+                <div class="color-number">455</div>
+                <div class="color-info">#fdfcfc<br>RGB(253, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '456')">
+                <div class="color-number">456</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #5c473d;" onclick="copyToClipboard('#5c473d', '457')">
+                <div class="color-number">457</div>
+                <div class="color-info">#5c473d<br>RGB(92, 71, 61)</div>
+            </div>
+            <div class="color-square" style="background-color: #6c5849;" onclick="copyToClipboard('#6c5849', '458')">
+                <div class="color-number">458</div>
+                <div class="color-info">#6c5849<br>RGB(108, 88, 73)</div>
+            </div>
+            <div class="color-square" style="background-color: #412e24;" onclick="copyToClipboard('#412e24', '459')">
+                <div class="color-number">459</div>
+                <div class="color-info">#412e24<br>RGB(65, 46, 36)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '460')">
+                <div class="color-number">460</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '461')">
+                <div class="color-number">461</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #674c2f;" onclick="copyToClipboard('#674c2f', '462')">
+                <div class="color-number">462</div>
+                <div class="color-info">#674c2f<br>RGB(103, 76, 47)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '463')">
+                <div class="color-number">463</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '464')">
+                <div class="color-number">464</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #2b2018;" onclick="copyToClipboard('#2b2018', '465')">
+                <div class="color-number">465</div>
+                <div class="color-info">#2b2018<br>RGB(43, 32, 24)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '466')">
+                <div class="color-number">466</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '467')">
+                <div class="color-number">467</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfcfd;" onclick="copyToClipboard('#fdfcfd', '468')">
+                <div class="color-number">468</div>
+                <div class="color-info">#fdfcfd<br>RGB(253, 252, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '469')">
+                <div class="color-number">469</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #442c22;" onclick="copyToClipboard('#442c22', '470')">
+                <div class="color-number">470</div>
+                <div class="color-info">#442c22<br>RGB(68, 44, 34)</div>
+            </div>
+            <div class="color-square" style="background-color: #6b574e;" onclick="copyToClipboard('#6b574e', '471')">
+                <div class="color-number">471</div>
+                <div class="color-info">#6b574e<br>RGB(107, 87, 78)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '472')">
+                <div class="color-number">472</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '473')">
+                <div class="color-number">473</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '474')">
+                <div class="color-number">474</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '475')">
+                <div class="color-number">475</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfb;" onclick="copyToClipboard('#fcfcfb', '476')">
+                <div class="color-number">476</div>
+                <div class="color-info">#fcfcfb<br>RGB(252, 252, 251)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfc;" onclick="copyToClipboard('#fdfdfc', '477')">
+                <div class="color-number">477</div>
+                <div class="color-info">#fdfdfc<br>RGB(253, 253, 252)</div>
+            </div>
+            <div class="color-square" style="background-color: #3d3b38;" onclick="copyToClipboard('#3d3b38', '478')">
+                <div class="color-number">478</div>
+                <div class="color-info">#3d3b38<br>RGB(61, 59, 56)</div>
+            </div>
+            <div class="color-square" style="background-color: #fdfdfd;" onclick="copyToClipboard('#fdfdfd', '479')">
+                <div class="color-number">479</div>
+                <div class="color-info">#fdfdfd<br>RGB(253, 253, 253)</div>
+            </div>
+            <div class="color-square" style="background-color: #fcfcfc;" onclick="copyToClipboard('#fcfcfc', '480')">
+                <div class="color-number">480</div>
+                <div class="color-info">#fcfcfc<br>RGB(252, 252, 252)</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard(hex, colorNumber) {
+            navigator.clipboard.writeText(hex).then(() => {
+                const notification = document.getElementById('copyNotification');
+                notification.textContent = `Color ${colorNumber} (${hex}) copied to clipboard!`;
+                notification.style.display = 'block';
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

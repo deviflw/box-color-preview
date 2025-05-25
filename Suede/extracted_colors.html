@@ -1,0 +1,963 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracted Color Grids</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .image-section {
+            background: white;
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .image-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .color-square {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .color-info {
+            background: rgba(255,255,255,0.95);
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        .hex-code {
+            font-family: monospace;
+            font-size: 14px;
+            margin-bottom: 3px;
+            color: #333;
+        }
+        .color-name {
+            font-size: 11px;
+            color: #666;
+            text-transform: capitalize;
+        }
+        .rgb-values {
+            font-size: 10px;
+            color: #888;
+            margin-top: 2px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .summary {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #2c5f7a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extracted Color Grids from Suede Images</h1>
+    <div class="summary">
+        <strong>Total Images Processed:</strong> 11 | 
+        <strong>Colors per Image:</strong> 9 (3x3 grid)
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-1.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fcfbfa;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfbfa</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 251, 250)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfa;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfa</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 250)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcf9f6;">
+                <div class="color-info">
+                    <div class="hex-code">#fcf9f6</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 249, 246)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefcfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fefcfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 252, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefefe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefefe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 254, 254)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefefe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefefe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 254, 254)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-10.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #110908;">
+                <div class="color-info">
+                    <div class="hex-code">#110908</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(17, 9, 8)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #130c0d;">
+                <div class="color-info">
+                    <div class="hex-code">#130c0d</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(19, 12, 13)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-2.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fcfcf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcfcf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfa;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfa</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 250)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fafaf5;">
+                <div class="color-info">
+                    <div class="hex-code">#fafaf5</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(250, 250, 245)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fafaf6;">
+                <div class="color-info">
+                    <div class="hex-code">#fafaf6</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(250, 250, 246)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #f8f7f3;">
+                <div class="color-info">
+                    <div class="hex-code">#f8f7f3</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(248, 247, 243)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-3.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcfcfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-4.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fcfcfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcfcfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #caa333;">
+                <div class="color-info">
+                    <div class="hex-code">#caa333</div>
+                    <div class="color-name">Red/Pink</div>
+                    <div class="rgb-values">RGB(202, 163, 51)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdf8;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdf8</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 248)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfa;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfa</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 250)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 251)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-5.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #0b3e3c;">
+                <div class="color-info">
+                    <div class="hex-code">#0b3e3c</div>
+                    <div class="color-name">Dark Green</div>
+                    <div class="rgb-values">RGB(11, 62, 60)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fbfcfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fbfcfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(251, 252, 251)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfe;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 254)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #081142;">
+                <div class="color-info">
+                    <div class="hex-code">#081142</div>
+                    <div class="color-name">Dark Blue</div>
+                    <div class="rgb-values">RGB(8, 17, 66)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #010218;">
+                <div class="color-info">
+                    <div class="hex-code">#010218</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(1, 2, 24)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 252)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-6.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #050719;">
+                <div class="color-info">
+                    <div class="hex-code">#050719</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(5, 7, 25)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfbfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfbfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 251, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #faf3f8;">
+                <div class="color-info">
+                    <div class="hex-code">#faf3f8</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(250, 243, 248)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fbf5f9;">
+                <div class="color-info">
+                    <div class="hex-code">#fbf5f9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(251, 245, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #f9f0f6;">
+                <div class="color-info">
+                    <div class="hex-code">#f9f0f6</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(249, 240, 246)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfbfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfbfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 251, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfbfb;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfbfb</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 251, 251)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-7.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #190314;">
+                <div class="color-info">
+                    <div class="hex-code">#190314</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(25, 3, 20)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 254)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #110108;">
+                <div class="color-info">
+                    <div class="hex-code">#110108</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(17, 1, 8)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-8.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #25030e;">
+                <div class="color-info">
+                    <div class="hex-code">#25030e</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(37, 3, 14)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 254)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #24040b;">
+                <div class="color-info">
+                    <div class="hex-code">#24040b</div>
+                    <div class="color-name">Dark/Black</div>
+                    <div class="rgb-values">RGB(36, 4, 11)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #a00a2c;">
+                <div class="color-info">
+                    <div class="hex-code">#a00a2c</div>
+                    <div class="color-name">Red</div>
+                    <div class="rgb-values">RGB(160, 10, 44)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfbfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfbfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 251, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fcfbfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfbfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 251, 252)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-9.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fcfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fcfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(252, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #f7f6f6;">
+                <div class="color-info">
+                    <div class="hex-code">#f7f6f6</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(247, 246, 246)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #534032;">
+                <div class="color-info">
+                    <div class="hex-code">#534032</div>
+                    <div class="color-name">Dark Red</div>
+                    <div class="rgb-values">RGB(83, 64, 50)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfcfc;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfcfc</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 252, 252)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="image-title">suede-color-mixed1.jpg</div>
+        <div class="color-grid">
+
+            <div class="color-square" style="background-color: #fbfaf9;">
+                <div class="color-info">
+                    <div class="hex-code">#fbfaf9</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(251, 250, 249)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fdfdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fdfdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(253, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefdfd;">
+                <div class="color-info">
+                    <div class="hex-code">#fefdfd</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 253, 253)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefefe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefefe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 254, 254)</div>
+                </div>
+            </div>
+
+            <div class="color-square" style="background-color: #fefefe;">
+                <div class="color-info">
+                    <div class="hex-code">#fefefe</div>
+                    <div class="color-name">Light/White</div>
+                    <div class="rgb-values">RGB(254, 254, 254)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,1534 @@
+{
+  "leather_colors": [
+    {
+      "color_number": "001",
+      "position_in_grid": 1,
+      "rgb": [
+        37,
+        3,
+        36
+      ],
+      "hex": "#250324",
+      "name": "Dark/Black",
+      "coordinates": [
+        13,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "color_number": "002",
+      "position_in_grid": 2,
+      "rgb": [
+        152,
+        137,
+        142
+      ],
+      "hex": "#98898e",
+      "name": "Red/Pink",
+      "coordinates": [
+        104,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "color_number": "003",
+      "position_in_grid": 3,
+      "rgb": [
+        90,
+        74,
+        85
+      ],
+      "hex": "#5a4a55",
+      "name": "Red",
+      "coordinates": [
+        195,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "color_number": "004",
+      "position_in_grid": 4,
+      "rgb": [
+        199,
+        147,
+        167
+      ],
+      "hex": "#c793a7",
+      "name": "Red/Pink",
+      "coordinates": [
+        286,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "color_number": "005",
+      "position_in_grid": 5,
+      "rgb": [
+        158,
+        140,
+        120
+      ],
+      "hex": "#9e8c78",
+      "name": "Red/Pink",
+      "coordinates": [
+        377,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "color_number": "006",
+      "position_in_grid": 6,
+      "rgb": [
+        2,
+        84,
+        10
+      ],
+      "hex": "#02540a",
+      "name": "Green",
+      "coordinates": [
+        468,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "color_number": "007",
+      "position_in_grid": 7,
+      "rgb": [
+        128,
+        160,
+        94
+      ],
+      "hex": "#80a05e",
+      "name": "Green",
+      "coordinates": [
+        559,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "color_number": "008",
+      "position_in_grid": 8,
+      "rgb": [
+        13,
+        48,
+        34
+      ],
+      "hex": "#0d3022",
+      "name": "Dark/Black",
+      "coordinates": [
+        650,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 8"
+    },
+    {
+      "color_number": "009",
+      "position_in_grid": 9,
+      "rgb": [
+        23,
+        110,
+        93
+      ],
+      "hex": "#176e5d",
+      "name": "Green",
+      "coordinates": [
+        741,
+        21,
+        65,
+        100
+      ],
+      "grid_position": "Row 1, Col 9"
+    },
+    {
+      "color_number": "010",
+      "position_in_grid": 10,
+      "rgb": [
+        34,
+        37,
+        24
+      ],
+      "hex": "#222518",
+      "name": "Dark/Black",
+      "coordinates": [
+        833,
+        21,
+        68,
+        100
+      ],
+      "grid_position": "Row 1, Col 10"
+    },
+    {
+      "color_number": "011",
+      "position_in_grid": 11,
+      "rgb": [
+        132,
+        40,
+        98
+      ],
+      "hex": "#842862",
+      "name": "Red",
+      "coordinates": [
+        13,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "color_number": "012",
+      "position_in_grid": 12,
+      "rgb": [
+        152,
+        62,
+        29
+      ],
+      "hex": "#983e1d",
+      "name": "Red",
+      "coordinates": [
+        104,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "color_number": "013",
+      "position_in_grid": 13,
+      "rgb": [
+        142,
+        64,
+        41
+      ],
+      "hex": "#8e4029",
+      "name": "Red",
+      "coordinates": [
+        195,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "color_number": "014",
+      "position_in_grid": 14,
+      "rgb": [
+        250,
+        250,
+        247
+      ],
+      "hex": "#fafaf7",
+      "name": "Light/White",
+      "coordinates": [
+        286,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "color_number": "015",
+      "position_in_grid": 15,
+      "rgb": [
+        205,
+        196,
+        179
+      ],
+      "hex": "#cdc4b3",
+      "name": "Red/Pink",
+      "coordinates": [
+        377,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "color_number": "016",
+      "position_in_grid": 16,
+      "rgb": [
+        250,
+        247,
+        237
+      ],
+      "hex": "#faf7ed",
+      "name": "Light/White",
+      "coordinates": [
+        468,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "color_number": "017",
+      "position_in_grid": 17,
+      "rgb": [
+        250,
+        248,
+        238
+      ],
+      "hex": "#faf8ee",
+      "name": "Light/White",
+      "coordinates": [
+        559,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "color_number": "018",
+      "position_in_grid": 18,
+      "rgb": [
+        168,
+        124,
+        10
+      ],
+      "hex": "#a87c0a",
+      "name": "Red/Pink",
+      "coordinates": [
+        650,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 8"
+    },
+    {
+      "color_number": "019",
+      "position_in_grid": 19,
+      "rgb": [
+        226,
+        145,
+        8
+      ],
+      "hex": "#e29108",
+      "name": "Red/Pink",
+      "coordinates": [
+        741,
+        163,
+        65,
+        100
+      ],
+      "grid_position": "Row 2, Col 9"
+    },
+    {
+      "color_number": "020",
+      "position_in_grid": 20,
+      "rgb": [
+        173,
+        145,
+        67
+      ],
+      "hex": "#ad9143",
+      "name": "Red/Pink",
+      "coordinates": [
+        833,
+        163,
+        68,
+        100
+      ],
+      "grid_position": "Row 2, Col 10"
+    },
+    {
+      "color_number": "021",
+      "position_in_grid": 21,
+      "rgb": [
+        3,
+        5,
+        17
+      ],
+      "hex": "#030511",
+      "name": "Dark/Black",
+      "coordinates": [
+        13,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "color_number": "022",
+      "position_in_grid": 22,
+      "rgb": [
+        2,
+        2,
+        7
+      ],
+      "hex": "#020207",
+      "name": "Dark/Black",
+      "coordinates": [
+        104,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "color_number": "023",
+      "position_in_grid": 23,
+      "rgb": [
+        113,
+        2,
+        20
+      ],
+      "hex": "#710214",
+      "name": "Red",
+      "coordinates": [
+        195,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "color_number": "024",
+      "position_in_grid": 24,
+      "rgb": [
+        112,
+        13,
+        28
+      ],
+      "hex": "#700d1c",
+      "name": "Red",
+      "coordinates": [
+        286,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "color_number": "025",
+      "position_in_grid": 25,
+      "rgb": [
+        143,
+        12,
+        73
+      ],
+      "hex": "#8f0c49",
+      "name": "Red",
+      "coordinates": [
+        377,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "color_number": "026",
+      "position_in_grid": 26,
+      "rgb": [
+        216,
+        96,
+        117
+      ],
+      "hex": "#d86075",
+      "name": "Red",
+      "coordinates": [
+        468,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "color_number": "027",
+      "position_in_grid": 27,
+      "rgb": [
+        197,
+        72,
+        99
+      ],
+      "hex": "#c54863",
+      "name": "Red",
+      "coordinates": [
+        559,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "color_number": "028",
+      "position_in_grid": 28,
+      "rgb": [
+        178,
+        42,
+        74
+      ],
+      "hex": "#b22a4a",
+      "name": "Red",
+      "coordinates": [
+        650,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 8"
+    },
+    {
+      "color_number": "029",
+      "position_in_grid": 29,
+      "rgb": [
+        176,
+        125,
+        130
+      ],
+      "hex": "#b07d82",
+      "name": "Red/Pink",
+      "coordinates": [
+        741,
+        305,
+        65,
+        100
+      ],
+      "grid_position": "Row 3, Col 9"
+    },
+    {
+      "color_number": "030",
+      "position_in_grid": 30,
+      "rgb": [
+        175,
+        97,
+        123
+      ],
+      "hex": "#af617b",
+      "name": "Red",
+      "coordinates": [
+        833,
+        305,
+        68,
+        100
+      ],
+      "grid_position": "Row 3, Col 10"
+    },
+    {
+      "color_number": "031",
+      "position_in_grid": 31,
+      "rgb": [
+        205,
+        2,
+        35
+      ],
+      "hex": "#cd0223",
+      "name": "Red",
+      "coordinates": [
+        13,
+        447,
+        65,
+        100
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "color_number": "032",
+      "position_in_grid": 32,
+      "rgb": [
+        247,
+        209,
+        218
+      ],
+      "hex": "#f7d1da",
+      "name": "Light/White",
+      "coordinates": [
+        104,
+        447,
+        65,
+        100
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "color_number": "033",
+      "position_in_grid": 33,
+      "rgb": [
+        194,
+        58,
+        10
+      ],
+      "hex": "#c23a0a",
+      "name": "Red",
+      "coordinates": [
+        195,
+        447,
+        65,
+        100
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "color_number": "034",
+      "position_in_grid": 34,
+      "rgb": [
+        0,
+        4,
+        24
+      ],
+      "hex": "#000418",
+      "name": "Dark/Black",
+      "coordinates": [
+        286,
+        447,
+        65,
+        100
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "color_number": "035",
+      "position_in_grid": 35,
+      "rgb": [
+        152,
+        65,
+        21
+      ],
+      "hex": "#984115",
+      "name": "Red",
+      "coordinates": [
+        377,
+        447,
+        65,
+        100
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "color_number": "036",
+      "position_in_grid": 41,
+      "rgb": [
+        1,
+        66,
+        35
+      ],
+      "hex": "#014223",
+      "name": "Green",
+      "coordinates": [
+        13,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "color_number": "037",
+      "position_in_grid": 42,
+      "rgb": [
+        46,
+        59,
+        61
+      ],
+      "hex": "#2e3b3d",
+      "name": "Blue",
+      "coordinates": [
+        104,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "color_number": "038",
+      "position_in_grid": 43,
+      "rgb": [
+        117,
+        122,
+        101
+      ],
+      "hex": "#757a65",
+      "name": "Green",
+      "coordinates": [
+        195,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "color_number": "039",
+      "position_in_grid": 44,
+      "rgb": [
+        136,
+        127,
+        92
+      ],
+      "hex": "#887f5c",
+      "name": "Red/Pink",
+      "coordinates": [
+        286,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "color_number": "040",
+      "position_in_grid": 45,
+      "rgb": [
+        57,
+        89,
+        109
+      ],
+      "hex": "#39596d",
+      "name": "Blue",
+      "coordinates": [
+        377,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "color_number": "041",
+      "position_in_grid": 46,
+      "rgb": [
+        1,
+        10,
+        21
+      ],
+      "hex": "#010a15",
+      "name": "Dark/Black",
+      "coordinates": [
+        468,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "color_number": "042",
+      "position_in_grid": 47,
+      "rgb": [
+        0,
+        11,
+        20
+      ],
+      "hex": "#000b14",
+      "name": "Dark/Black",
+      "coordinates": [
+        559,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "color_number": "043",
+      "position_in_grid": 48,
+      "rgb": [
+        252,
+        242,
+        250
+      ],
+      "hex": "#fcf2fa",
+      "name": "Light/White",
+      "coordinates": [
+        650,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 8"
+    },
+    {
+      "color_number": "044",
+      "position_in_grid": 49,
+      "rgb": [
+        27,
+        100,
+        146
+      ],
+      "hex": "#1b6492",
+      "name": "Blue",
+      "coordinates": [
+        741,
+        589,
+        65,
+        100
+      ],
+      "grid_position": "Row 5, Col 9"
+    },
+    {
+      "color_number": "045",
+      "position_in_grid": 50,
+      "rgb": [
+        0,
+        19,
+        60
+      ],
+      "hex": "#00133c",
+      "name": "Blue",
+      "coordinates": [
+        833,
+        589,
+        68,
+        100
+      ],
+      "grid_position": "Row 5, Col 10"
+    },
+    {
+      "color_number": "046",
+      "position_in_grid": 51,
+      "rgb": [
+        77,
+        28,
+        83
+      ],
+      "hex": "#4d1c53",
+      "name": "Blue",
+      "coordinates": [
+        13,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "color_number": "047",
+      "position_in_grid": 52,
+      "rgb": [
+        196,
+        182,
+        203
+      ],
+      "hex": "#c4b6cb",
+      "name": "Blue",
+      "coordinates": [
+        104,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "color_number": "048",
+      "position_in_grid": 53,
+      "rgb": [
+        127,
+        114,
+        139
+      ],
+      "hex": "#7f728b",
+      "name": "Blue",
+      "coordinates": [
+        195,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "color_number": "049",
+      "position_in_grid": 54,
+      "rgb": [
+        246,
+        166,
+        226
+      ],
+      "hex": "#f6a6e2",
+      "name": "Red/Pink",
+      "coordinates": [
+        286,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "color_number": "050",
+      "position_in_grid": 55,
+      "rgb": [
+        197,
+        181,
+        168
+      ],
+      "hex": "#c5b5a8",
+      "name": "Red/Pink",
+      "coordinates": [
+        377,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "color_number": "051",
+      "position_in_grid": 56,
+      "rgb": [
+        1,
+        119,
+        22
+      ],
+      "hex": "#017716",
+      "name": "Green",
+      "coordinates": [
+        468,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "color_number": "052",
+      "position_in_grid": 57,
+      "rgb": [
+        116,
+        185,
+        99
+      ],
+      "hex": "#74b963",
+      "name": "Green",
+      "coordinates": [
+        559,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "color_number": "053",
+      "position_in_grid": 58,
+      "rgb": [
+        16,
+        78,
+        66
+      ],
+      "hex": "#104e42",
+      "name": "Green",
+      "coordinates": [
+        650,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 8"
+    },
+    {
+      "color_number": "054",
+      "position_in_grid": 59,
+      "rgb": [
+        3,
+        148,
+        134
+      ],
+      "hex": "#039486",
+      "name": "Green",
+      "coordinates": [
+        741,
+        731,
+        65,
+        100
+      ],
+      "grid_position": "Row 6, Col 9"
+    },
+    {
+      "color_number": "055",
+      "position_in_grid": 60,
+      "rgb": [
+        56,
+        70,
+        53
+      ],
+      "hex": "#384635",
+      "name": "Green",
+      "coordinates": [
+        833,
+        731,
+        68,
+        100
+      ],
+      "grid_position": "Row 6, Col 10"
+    },
+    {
+      "color_number": "056",
+      "position_in_grid": 61,
+      "rgb": [
+        105,
+        146,
+        144
+      ],
+      "hex": "#699290",
+      "name": "Green",
+      "coordinates": [
+        13,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "color_number": "057",
+      "position_in_grid": 62,
+      "rgb": [
+        80,
+        117,
+        160
+      ],
+      "hex": "#5075a0",
+      "name": "Blue",
+      "coordinates": [
+        104,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "color_number": "058",
+      "position_in_grid": 63,
+      "rgb": [
+        72,
+        124,
+        145
+      ],
+      "hex": "#487c91",
+      "name": "Blue",
+      "coordinates": [
+        195,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "color_number": "059",
+      "position_in_grid": 64,
+      "rgb": [
+        8,
+        89,
+        124
+      ],
+      "hex": "#08597c",
+      "name": "Blue",
+      "coordinates": [
+        286,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "color_number": "060",
+      "position_in_grid": 65,
+      "rgb": [
+        2,
+        56,
+        115
+      ],
+      "hex": "#023873",
+      "name": "Blue",
+      "coordinates": [
+        377,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "color_number": "061",
+      "position_in_grid": 66,
+      "rgb": [
+        12,
+        27,
+        89
+      ],
+      "hex": "#0c1b59",
+      "name": "Blue",
+      "coordinates": [
+        468,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "color_number": "062",
+      "position_in_grid": 67,
+      "rgb": [
+        106,
+        124,
+        135
+      ],
+      "hex": "#6a7c87",
+      "name": "Blue",
+      "coordinates": [
+        559,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 7"
+    },
+    {
+      "color_number": "063",
+      "position_in_grid": 68,
+      "rgb": [
+        76,
+        94,
+        101
+      ],
+      "hex": "#4c5e65",
+      "name": "Blue",
+      "coordinates": [
+        650,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 8"
+    },
+    {
+      "color_number": "064",
+      "position_in_grid": 69,
+      "rgb": [
+        23,
+        51,
+        65
+      ],
+      "hex": "#173341",
+      "name": "Blue",
+      "coordinates": [
+        741,
+        873,
+        65,
+        100
+      ],
+      "grid_position": "Row 7, Col 9"
+    },
+    {
+      "color_number": "065",
+      "position_in_grid": 70,
+      "rgb": [
+        14,
+        29,
+        52
+      ],
+      "hex": "#0e1d34",
+      "name": "Blue",
+      "coordinates": [
+        833,
+        873,
+        68,
+        100
+      ],
+      "grid_position": "Row 7, Col 10"
+    },
+    {
+      "color_number": "066",
+      "position_in_grid": 71,
+      "rgb": [
+        108,
+        88,
+        76
+      ],
+      "hex": "#6c584c",
+      "name": "Red",
+      "coordinates": [
+        13,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 1"
+    },
+    {
+      "color_number": "067",
+      "position_in_grid": 72,
+      "rgb": [
+        101,
+        90,
+        84
+      ],
+      "hex": "#655a54",
+      "name": "Red",
+      "coordinates": [
+        104,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 2"
+    },
+    {
+      "color_number": "068",
+      "position_in_grid": 73,
+      "rgb": [
+        91,
+        68,
+        56
+      ],
+      "hex": "#5b4438",
+      "name": "Red",
+      "coordinates": [
+        195,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 3"
+    },
+    {
+      "color_number": "069",
+      "position_in_grid": 74,
+      "rgb": [
+        72,
+        42,
+        24
+      ],
+      "hex": "#482a18",
+      "name": "Red",
+      "coordinates": [
+        286,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 4"
+    },
+    {
+      "color_number": "070",
+      "position_in_grid": 75,
+      "rgb": [
+        129,
+        109,
+        87
+      ],
+      "hex": "#816d57",
+      "name": "Red/Pink",
+      "coordinates": [
+        377,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 5"
+    },
+    {
+      "color_number": "071",
+      "position_in_grid": 76,
+      "rgb": [
+        126,
+        128,
+        125
+      ],
+      "hex": "#7e807d",
+      "name": "Green",
+      "coordinates": [
+        468,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 6"
+    },
+    {
+      "color_number": "072",
+      "position_in_grid": 77,
+      "rgb": [
+        37,
+        28,
+        26
+      ],
+      "hex": "#251c1a",
+      "name": "Dark/Black",
+      "coordinates": [
+        559,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 7"
+    },
+    {
+      "color_number": "073",
+      "position_in_grid": 78,
+      "rgb": [
+        17,
+        1,
+        3
+      ],
+      "hex": "#110103",
+      "name": "Dark/Black",
+      "coordinates": [
+        650,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 8"
+    },
+    {
+      "color_number": "074",
+      "position_in_grid": 79,
+      "rgb": [
+        10,
+        1,
+        3
+      ],
+      "hex": "#0a0103",
+      "name": "Dark/Black",
+      "coordinates": [
+        741,
+        1015,
+        65,
+        100
+      ],
+      "grid_position": "Row 8, Col 9"
+    },
+    {
+      "color_number": "075",
+      "position_in_grid": 80,
+      "rgb": [
+        33,
+        1,
+        6
+      ],
+      "hex": "#210106",
+      "name": "Dark/Black",
+      "coordinates": [
+        833,
+        1015,
+        68,
+        100
+      ],
+      "grid_position": "Row 8, Col 10"
+    },
+    {
+      "color_number": "076",
+      "position_in_grid": 81,
+      "rgb": [
+        5,
+        4,
+        9
+      ],
+      "hex": "#050409",
+      "name": "Dark/Black",
+      "coordinates": [
+        13,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 1"
+    },
+    {
+      "color_number": "077",
+      "position_in_grid": 82,
+      "rgb": [
+        125,
+        65,
+        46
+      ],
+      "hex": "#7d412e",
+      "name": "Red",
+      "coordinates": [
+        104,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 2"
+    },
+    {
+      "color_number": "078",
+      "position_in_grid": 83,
+      "rgb": [
+        107,
+        60,
+        43
+      ],
+      "hex": "#6b3c2b",
+      "name": "Red",
+      "coordinates": [
+        195,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 3"
+    },
+    {
+      "color_number": "079",
+      "position_in_grid": 84,
+      "rgb": [
+        139,
+        86,
+        38
+      ],
+      "hex": "#8b5626",
+      "name": "Red",
+      "coordinates": [
+        286,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 4"
+    },
+    {
+      "color_number": "080",
+      "position_in_grid": 85,
+      "rgb": [
+        145,
+        104,
+        58
+      ],
+      "hex": "#91683a",
+      "name": "Red/Pink",
+      "coordinates": [
+        377,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 5"
+    },
+    {
+      "color_number": "081",
+      "position_in_grid": 86,
+      "rgb": [
+        123,
+        81,
+        52
+      ],
+      "hex": "#7b5134",
+      "name": "Red",
+      "coordinates": [
+        468,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 6"
+    },
+    {
+      "color_number": "082",
+      "position_in_grid": 87,
+      "rgb": [
+        56,
+        37,
+        24
+      ],
+      "hex": "#382518",
+      "name": "Red",
+      "coordinates": [
+        559,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 7"
+    },
+    {
+      "color_number": "083",
+      "position_in_grid": 88,
+      "rgb": [
+        77,
+        62,
+        51
+      ],
+      "hex": "#4d3e33",
+      "name": "Red",
+      "coordinates": [
+        650,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 8"
+    },
+    {
+      "color_number": "084",
+      "position_in_grid": 89,
+      "rgb": [
+        149,
+        147,
+        151
+      ],
+      "hex": "#959397",
+      "name": "Blue",
+      "coordinates": [
+        741,
+        1157,
+        65,
+        102
+      ],
+      "grid_position": "Row 9, Col 9"
+    },
+    {
+      "color_number": "085",
+      "position_in_grid": 90,
+      "rgb": [
+        115,
+        96,
+        81
+      ],
+      "hex": "#736051",
+      "name": "Red",
+      "coordinates": [
+        833,
+        1157,
+        68,
+        102
+      ],
+      "grid_position": "Row 9, Col 10"
+    }
+  ]
+}

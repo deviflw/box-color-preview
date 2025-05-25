@@ -1,0 +1,8881 @@
+{
+  "suede-1.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        251,
+        251,
+        251
+      ],
+      "hex": "#fbfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        447,
+        356
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        251,
+        249
+      ],
+      "hex": "#fdfbf9",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        0,
+        447,
+        356
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        252,
+        251
+      ],
+      "hex": "#fefcfb",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        0,
+        447,
+        356
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        250,
+        248
+      ],
+      "hex": "#fdfaf8",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        0,
+        447,
+        356
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        254,
+        251,
+        249
+      ],
+      "hex": "#fefbf9",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        0,
+        448,
+        356
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        251,
+        249
+      ],
+      "hex": "#fefbf9",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        356,
+        447,
+        356
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        251
+      ],
+      "hex": "#fdfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        356,
+        447,
+        356
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        356,
+        447,
+        356
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        356,
+        447,
+        356
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        254,
+        253,
+        252
+      ],
+      "hex": "#fefdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        356,
+        448,
+        356
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        712,
+        447,
+        356
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        250,
+        249
+      ],
+      "hex": "#fdfaf9",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        712,
+        447,
+        356
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        712,
+        447,
+        356
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        712,
+        447,
+        356
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        712,
+        448,
+        356
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1068,
+        447,
+        356
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        1068,
+        447,
+        356
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        1068,
+        447,
+        356
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        1068,
+        447,
+        356
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1068,
+        448,
+        356
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        252,
+        251
+      ],
+      "hex": "#fdfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1424,
+        447,
+        356
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        1424,
+        447,
+        356
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        1424,
+        447,
+        356
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        1424,
+        447,
+        356
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1424,
+        448,
+        356
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1780,
+        447,
+        356
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        1780,
+        447,
+        356
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        1780,
+        447,
+        356
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        1780,
+        447,
+        356
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1780,
+        448,
+        356
+      ],
+      "grid_position": "Row 6, Col 5"
+    }
+  ],
+  "suede-10.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        105,
+        106,
+        107
+      ],
+      "hex": "#696a6b",
+      "name": "Blue",
+      "coordinates": [
+        861,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        0,
+        287,
+        466
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1722,
+        0,
+        290,
+        466
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        97,
+        93,
+        92
+      ],
+      "hex": "#615d5c",
+      "name": "Red",
+      "coordinates": [
+        861,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        466,
+        287,
+        466
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        10,
+        20,
+        37
+      ],
+      "hex": "#0a1425",
+      "name": "Dark/Black",
+      "coordinates": [
+        1722,
+        466,
+        290,
+        466
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        18,
+        13,
+        19
+      ],
+      "hex": "#120d13",
+      "name": "Dark/Black",
+      "coordinates": [
+        861,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        932,
+        287,
+        466
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        28,
+        26,
+        15
+      ],
+      "hex": "#1c1a0f",
+      "name": "Dark/Black",
+      "coordinates": [
+        1722,
+        932,
+        290,
+        466
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        27,
+        12,
+        10
+      ],
+      "hex": "#1b0c0a",
+      "name": "Dark/Black",
+      "coordinates": [
+        861,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        1398,
+        287,
+        466
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        24,
+        13,
+        10
+      ],
+      "hex": "#180d0a",
+      "name": "Dark/Black",
+      "coordinates": [
+        1722,
+        1398,
+        290,
+        466
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        19,
+        6,
+        8
+      ],
+      "hex": "#130608",
+      "name": "Dark/Black",
+      "coordinates": [
+        861,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        1864,
+        287,
+        466
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1722,
+        1864,
+        290,
+        466
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        5,
+        1,
+        2
+      ],
+      "hex": "#050102",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        6,
+        3,
+        6
+      ],
+      "hex": "#060306",
+      "name": "Dark/Black",
+      "coordinates": [
+        287,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        8,
+        4,
+        10
+      ],
+      "hex": "#08040a",
+      "name": "Dark/Black",
+      "coordinates": [
+        574,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        11,
+        6,
+        11
+      ],
+      "hex": "#0b060b",
+      "name": "Dark/Black",
+      "coordinates": [
+        861,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        20,
+        9,
+        6
+      ],
+      "hex": "#140906",
+      "name": "Dark/Black",
+      "coordinates": [
+        1148,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        15,
+        9,
+        7
+      ],
+      "hex": "#0f0907",
+      "name": "Dark/Black",
+      "coordinates": [
+        1435,
+        2330,
+        287,
+        466
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        15,
+        14,
+        14
+      ],
+      "hex": "#0f0e0e",
+      "name": "Dark/Black",
+      "coordinates": [
+        1722,
+        2330,
+        290,
+        466
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        252,
+        251,
+        251
+      ],
+      "hex": "#fcfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        287,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        574,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        17,
+        1,
+        5
+      ],
+      "hex": "#110105",
+      "name": "Dark/Black",
+      "coordinates": [
+        861,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1148,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1435,
+        2796,
+        287,
+        468
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1722,
+        2796,
+        290,
+        468
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-2.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        153,
+        107,
+        80
+      ],
+      "hex": "#996b50",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        155,
+        116,
+        97
+      ],
+      "hex": "#9b7461",
+      "name": "Red/Pink",
+      "coordinates": [
+        903,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        0,
+        301,
+        456
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        251
+      ],
+      "hex": "#fdfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        1806,
+        0,
+        307,
+        456
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        163,
+        112,
+        95
+      ],
+      "hex": "#a3705f",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        252,
+        252,
+        248
+      ],
+      "hex": "#fcfcf8",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        149,
+        109,
+        96
+      ],
+      "hex": "#956d60",
+      "name": "Red/Pink",
+      "coordinates": [
+        903,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        252,
+        252,
+        247
+      ],
+      "hex": "#fcfcf7",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        252,
+        252,
+        248
+      ],
+      "hex": "#fcfcf8",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        456,
+        301,
+        456
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        252,
+        252,
+        249
+      ],
+      "hex": "#fcfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        1806,
+        456,
+        307,
+        456
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        72,
+        43,
+        35
+      ],
+      "hex": "#482b23",
+      "name": "Red",
+      "coordinates": [
+        0,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        252,
+        252,
+        248
+      ],
+      "hex": "#fcfcf8",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        133,
+        105,
+        94
+      ],
+      "hex": "#85695e",
+      "name": "Red/Pink",
+      "coordinates": [
+        903,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        252,
+        252,
+        246
+      ],
+      "hex": "#fcfcf6",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        253,
+        253,
+        248
+      ],
+      "hex": "#fdfdf8",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        912,
+        301,
+        456
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        252,
+        251,
+        247
+      ],
+      "hex": "#fcfbf7",
+      "name": "Light/White",
+      "coordinates": [
+        1806,
+        912,
+        307,
+        456
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        123,
+        112,
+        97
+      ],
+      "hex": "#7b7061",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        125,
+        108,
+        87
+      ],
+      "hex": "#7d6c57",
+      "name": "Red/Pink",
+      "coordinates": [
+        903,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        1368,
+        301,
+        456
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        115,
+        96,
+        88
+      ],
+      "hex": "#736058",
+      "name": "Red",
+      "coordinates": [
+        1806,
+        1368,
+        307,
+        456
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        252,
+        252,
+        250
+      ],
+      "hex": "#fcfcfa",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        252,
+        252,
+        249
+      ],
+      "hex": "#fcfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        106,
+        88,
+        71
+      ],
+      "hex": "#6a5847",
+      "name": "Red",
+      "coordinates": [
+        903,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        252,
+        252,
+        248
+      ],
+      "hex": "#fcfcf8",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        1824,
+        301,
+        456
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        252,
+        251,
+        248
+      ],
+      "hex": "#fcfbf8",
+      "name": "Light/White",
+      "coordinates": [
+        1806,
+        1824,
+        307,
+        456
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        60,
+        42,
+        32
+      ],
+      "hex": "#3c2a20",
+      "name": "Red",
+      "coordinates": [
+        0,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        253,
+        252,
+        248
+      ],
+      "hex": "#fdfcf8",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        252,
+        252,
+        247
+      ],
+      "hex": "#fcfcf7",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        76,
+        61,
+        48
+      ],
+      "hex": "#4c3d30",
+      "name": "Red",
+      "coordinates": [
+        903,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        251,
+        251,
+        246
+      ],
+      "hex": "#fbfbf6",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        251,
+        251,
+        245
+      ],
+      "hex": "#fbfbf5",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        2280,
+        301,
+        456
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        78,
+        64,
+        49
+      ],
+      "hex": "#4e4031",
+      "name": "Red",
+      "coordinates": [
+        1806,
+        2280,
+        307,
+        456
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        247,
+        245,
+        240
+      ],
+      "hex": "#f7f5f0",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        250,
+        249,
+        243
+      ],
+      "hex": "#faf9f3",
+      "name": "Light/White",
+      "coordinates": [
+        301,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        250,
+        250,
+        244
+      ],
+      "hex": "#fafaf4",
+      "name": "Light/White",
+      "coordinates": [
+        602,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        97,
+        86,
+        71
+      ],
+      "hex": "#615647",
+      "name": "Red",
+      "coordinates": [
+        903,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        246,
+        246,
+        242
+      ],
+      "hex": "#f6f6f2",
+      "name": "Light/White",
+      "coordinates": [
+        1204,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        245,
+        244,
+        241
+      ],
+      "hex": "#f5f4f1",
+      "name": "Light/White",
+      "coordinates": [
+        1505,
+        2736,
+        301,
+        459
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        245,
+        243,
+        241
+      ],
+      "hex": "#f5f3f1",
+      "name": "Light/White",
+      "coordinates": [
+        1806,
+        2736,
+        307,
+        459
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-3.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        120,
+        96,
+        80
+      ],
+      "hex": "#786050",
+      "name": "Red",
+      "coordinates": [
+        918,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        0,
+        306,
+        461
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        0,
+        307,
+        461
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        67,
+        49,
+        34
+      ],
+      "hex": "#433122",
+      "name": "Red",
+      "coordinates": [
+        0,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        35,
+        19,
+        13
+      ],
+      "hex": "#23130d",
+      "name": "Dark/Black",
+      "coordinates": [
+        918,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        461,
+        306,
+        461
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        461,
+        307,
+        461
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        117,
+        93,
+        78
+      ],
+      "hex": "#755d4e",
+      "name": "Red",
+      "coordinates": [
+        918,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        922,
+        306,
+        461
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        922,
+        307,
+        461
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        54,
+        34,
+        25
+      ],
+      "hex": "#362219",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        61,
+        40,
+        30
+      ],
+      "hex": "#3d281e",
+      "name": "Red",
+      "coordinates": [
+        918,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        1383,
+        306,
+        461
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        1383,
+        307,
+        461
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        251,
+        250,
+        249
+      ],
+      "hex": "#fbfaf9",
+      "name": "Light/White",
+      "coordinates": [
+        918,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        1844,
+        306,
+        461
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        1844,
+        307,
+        461
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        23,
+        15,
+        13
+      ],
+      "hex": "#170f0d",
+      "name": "Dark/Black",
+      "coordinates": [
+        918,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        2305,
+        306,
+        461
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        45,
+        34,
+        30
+      ],
+      "hex": "#2d221e",
+      "name": "Dark/Black",
+      "coordinates": [
+        1836,
+        2305,
+        307,
+        461
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        143,
+        103,
+        63
+      ],
+      "hex": "#8f673f",
+      "name": "Red/Pink",
+      "coordinates": [
+        918,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        2766,
+        306,
+        462
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        252,
+        252,
+        252
+      ],
+      "hex": "#fcfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        2766,
+        307,
+        462
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-4.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        250,
+        250,
+        249
+      ],
+      "hex": "#fafaf9",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        104,
+        63,
+        43
+      ],
+      "hex": "#683f2b",
+      "name": "Red",
+      "coordinates": [
+        882,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        0,
+        294,
+        447
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        252,
+        251,
+        250
+      ],
+      "hex": "#fcfbfa",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        0,
+        298,
+        447
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        53,
+        25,
+        11
+      ],
+      "hex": "#35190b",
+      "name": "Red",
+      "coordinates": [
+        0,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        142,
+        79,
+        68
+      ],
+      "hex": "#8e4f44",
+      "name": "Red",
+      "coordinates": [
+        882,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        447,
+        294,
+        447
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        58,
+        21,
+        12
+      ],
+      "hex": "#3a150c",
+      "name": "Red",
+      "coordinates": [
+        1764,
+        447,
+        298,
+        447
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        66,
+        25,
+        8
+      ],
+      "hex": "#421908",
+      "name": "Red",
+      "coordinates": [
+        882,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        254,
+        253,
+        252
+      ],
+      "hex": "#fefdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        253,
+        252
+      ],
+      "hex": "#fefdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        894,
+        294,
+        447
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        252,
+        249
+      ],
+      "hex": "#fdfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        894,
+        298,
+        447
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        189,
+        167,
+        88
+      ],
+      "hex": "#bda758",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        254,
+        252
+      ],
+      "hex": "#fefefc",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        254,
+        253,
+        251
+      ],
+      "hex": "#fefdfb",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        203,
+        162,
+        42
+      ],
+      "hex": "#cba22a",
+      "name": "Red/Pink",
+      "coordinates": [
+        882,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        253,
+        248
+      ],
+      "hex": "#fdfdf8",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        254,
+        253,
+        249
+      ],
+      "hex": "#fefdf9",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        1341,
+        294,
+        447
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        253,
+        253,
+        248
+      ],
+      "hex": "#fdfdf8",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        1341,
+        298,
+        447
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        254,
+        253,
+        251
+      ],
+      "hex": "#fefdfb",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        178,
+        131,
+        44
+      ],
+      "hex": "#b2832c",
+      "name": "Red/Pink",
+      "coordinates": [
+        882,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        253,
+        251
+      ],
+      "hex": "#fefdfb",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        1788,
+        294,
+        447
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        253,
+        252,
+        249
+      ],
+      "hex": "#fdfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        1788,
+        298,
+        447
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        112,
+        66,
+        7
+      ],
+      "hex": "#704207",
+      "name": "Red",
+      "coordinates": [
+        0,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        168,
+        198,
+        63
+      ],
+      "hex": "#a8c63f",
+      "name": "Green",
+      "coordinates": [
+        882,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        254,
+        251
+      ],
+      "hex": "#fdfefb",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        2235,
+        294,
+        447
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        2235,
+        298,
+        447
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        252,
+        252,
+        250
+      ],
+      "hex": "#fcfcfa",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        294,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        252,
+        253,
+        250
+      ],
+      "hex": "#fcfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        588,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        33,
+        108,
+        90
+      ],
+      "hex": "#216c5a",
+      "name": "Green",
+      "coordinates": [
+        882,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        252,
+        253,
+        250
+      ],
+      "hex": "#fcfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        1176,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        1470,
+        2682,
+        294,
+        450
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        251,
+        251,
+        247
+      ],
+      "hex": "#fbfbf7",
+      "name": "Light/White",
+      "coordinates": [
+        1764,
+        2682,
+        298,
+        450
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-5.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        249,
+        249,
+        249
+      ],
+      "hex": "#f9f9f9",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        38,
+        120,
+        130
+      ],
+      "hex": "#267882",
+      "name": "Blue",
+      "coordinates": [
+        888,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        252,
+        252,
+        252
+      ],
+      "hex": "#fcfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        18,
+        80,
+        87
+      ],
+      "hex": "#125057",
+      "name": "Blue",
+      "coordinates": [
+        0,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        252,
+        253,
+        253
+      ],
+      "hex": "#fcfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        252,
+        253,
+        253
+      ],
+      "hex": "#fcfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        36,
+        95,
+        100
+      ],
+      "hex": "#245f64",
+      "name": "Blue",
+      "coordinates": [
+        888,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        7,
+        76,
+        81
+      ],
+      "hex": "#074c51",
+      "name": "Blue",
+      "coordinates": [
+        1184,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        252,
+        253,
+        253
+      ],
+      "hex": "#fcfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        17,
+        117,
+        108
+      ],
+      "hex": "#11756c",
+      "name": "Green",
+      "coordinates": [
+        1776,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        121,
+        144,
+        146
+      ],
+      "hex": "#799092",
+      "name": "Blue",
+      "coordinates": [
+        888,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        254,
+        254
+      ],
+      "hex": "#fdfefe",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        249,
+        252,
+        251
+      ],
+      "hex": "#f9fcfb",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        246,
+        250,
+        249
+      ],
+      "hex": "#f6faf9",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        7,
+        33,
+        80
+      ],
+      "hex": "#072150",
+      "name": "Blue",
+      "coordinates": [
+        0,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        253,
+        253,
+        254
+      ],
+      "hex": "#fdfdfe",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        4,
+        21,
+        103
+      ],
+      "hex": "#041567",
+      "name": "Blue",
+      "coordinates": [
+        888,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        2,
+        7,
+        52
+      ],
+      "hex": "#020734",
+      "name": "Blue",
+      "coordinates": [
+        1776,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        251,
+        251,
+        251
+      ],
+      "hex": "#fbfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        9,
+        16,
+        69
+      ],
+      "hex": "#091045",
+      "name": "Blue",
+      "coordinates": [
+        888,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        2,
+        4,
+        40
+      ],
+      "hex": "#020428",
+      "name": "Dark/Black",
+      "coordinates": [
+        1776,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        1,
+        1,
+        25
+      ],
+      "hex": "#010119",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        1,
+        0,
+        19
+      ],
+      "hex": "#010013",
+      "name": "Dark/Black",
+      "coordinates": [
+        296,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        1,
+        0,
+        21
+      ],
+      "hex": "#010015",
+      "name": "Dark/Black",
+      "coordinates": [
+        592,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        1,
+        0,
+        39
+      ],
+      "hex": "#010027",
+      "name": "Dark/Black",
+      "coordinates": [
+        888,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        252,
+        252,
+        252
+      ],
+      "hex": "#fcfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        3,
+        6,
+        34
+      ],
+      "hex": "#030622",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        1,
+        1,
+        33
+      ],
+      "hex": "#010121",
+      "name": "Dark/Black",
+      "coordinates": [
+        888,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        2772,
+        296,
+        465
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        2772,
+        302,
+        465
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-6.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        596,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        4,
+        17,
+        28
+      ],
+      "hex": "#04111c",
+      "name": "Dark/Black",
+      "coordinates": [
+        894,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        0,
+        298,
+        457
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        0,
+        299,
+        457
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        4,
+        13,
+        25
+      ],
+      "hex": "#040d19",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        3,
+        7,
+        21
+      ],
+      "hex": "#030715",
+      "name": "Dark/Black",
+      "coordinates": [
+        298,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        2,
+        3,
+        20
+      ],
+      "hex": "#020314",
+      "name": "Dark/Black",
+      "coordinates": [
+        596,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        2,
+        3,
+        12
+      ],
+      "hex": "#02030c",
+      "name": "Dark/Black",
+      "coordinates": [
+        894,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        250,
+        242,
+        247
+      ],
+      "hex": "#faf2f7",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        457,
+        298,
+        457
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        248,
+        236,
+        244
+      ],
+      "hex": "#f8ecf4",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        457,
+        299,
+        457
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        596,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        248,
+        233,
+        245
+      ],
+      "hex": "#f8e9f5",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        251,
+        242,
+        249
+      ],
+      "hex": "#fbf2f9",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        250,
+        252
+      ],
+      "hex": "#fefafc",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        914,
+        298,
+        457
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        914,
+        299,
+        457
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        217,
+        77,
+        113
+      ],
+      "hex": "#d94d71",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        252,
+        251
+      ],
+      "hex": "#fdfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        596,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        239,
+        50,
+        100
+      ],
+      "hex": "#ef3264",
+      "name": "Red",
+      "coordinates": [
+        894,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        250,
+        250
+      ],
+      "hex": "#fdfafa",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        252,
+        249,
+        249
+      ],
+      "hex": "#fcf9f9",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        1371,
+        298,
+        457
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        252,
+        250,
+        250
+      ],
+      "hex": "#fcfafa",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1371,
+        299,
+        457
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        253,
+        251,
+        251
+      ],
+      "hex": "#fdfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        596,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        247,
+        121,
+        46
+      ],
+      "hex": "#f7792e",
+      "name": "Red/Pink",
+      "coordinates": [
+        894,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        251,
+        246,
+        248
+      ],
+      "hex": "#fbf6f8",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        251,
+        250,
+        249
+      ],
+      "hex": "#fbfaf9",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        1828,
+        298,
+        457
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        252,
+        250,
+        250
+      ],
+      "hex": "#fcfafa",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1828,
+        299,
+        457
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        254,
+        252,
+        253
+      ],
+      "hex": "#fefcfd",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        162,
+        10,
+        26
+      ],
+      "hex": "#a20a1a",
+      "name": "Red",
+      "coordinates": [
+        596,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        134,
+        10,
+        16
+      ],
+      "hex": "#860a10",
+      "name": "Red",
+      "coordinates": [
+        894,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        2285,
+        298,
+        457
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        2285,
+        299,
+        457
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        298,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        596,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        88,
+        4,
+        7
+      ],
+      "hex": "#580407",
+      "name": "Red",
+      "coordinates": [
+        894,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1192,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        2742,
+        298,
+        459
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        252,
+        251,
+        251
+      ],
+      "hex": "#fcfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        2742,
+        299,
+        459
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-7.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        252,
+        251,
+        252
+      ],
+      "hex": "#fcfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        252,
+        253
+      ],
+      "hex": "#fefcfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        191,
+        39,
+        103
+      ],
+      "hex": "#bf2767",
+      "name": "Red",
+      "coordinates": [
+        918,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        252,
+        253
+      ],
+      "hex": "#fefcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        0,
+        306,
+        464
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        0,
+        312,
+        464
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        164,
+        14,
+        75
+      ],
+      "hex": "#a40e4b",
+      "name": "Red",
+      "coordinates": [
+        0,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        252,
+        253
+      ],
+      "hex": "#fefcfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        122,
+        5,
+        51
+      ],
+      "hex": "#7a0533",
+      "name": "Red",
+      "coordinates": [
+        918,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        464,
+        306,
+        464
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        149,
+        21,
+        78
+      ],
+      "hex": "#95154e",
+      "name": "Red",
+      "coordinates": [
+        1836,
+        464,
+        312,
+        464
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        134,
+        12,
+        101
+      ],
+      "hex": "#860c65",
+      "name": "Red",
+      "coordinates": [
+        918,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        928,
+        306,
+        464
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        928,
+        312,
+        464
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        125,
+        14,
+        79
+      ],
+      "hex": "#7d0e4f",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        90,
+        3,
+        63
+      ],
+      "hex": "#5a033f",
+      "name": "Red",
+      "coordinates": [
+        918,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        1392,
+        306,
+        464
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        1392,
+        312,
+        464
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        44,
+        4,
+        33
+      ],
+      "hex": "#2c0421",
+      "name": "Dark/Black",
+      "coordinates": [
+        918,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        1856,
+        306,
+        464
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        1856,
+        312,
+        464
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        23,
+        4,
+        21
+      ],
+      "hex": "#170415",
+      "name": "Dark/Black",
+      "coordinates": [
+        918,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        6,
+        1,
+        6
+      ],
+      "hex": "#060106",
+      "name": "Dark/Black",
+      "coordinates": [
+        1224,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        8,
+        1,
+        7
+      ],
+      "hex": "#080107",
+      "name": "Dark/Black",
+      "coordinates": [
+        1530,
+        2320,
+        306,
+        464
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        14,
+        1,
+        10
+      ],
+      "hex": "#0e010a",
+      "name": "Dark/Black",
+      "coordinates": [
+        1836,
+        2320,
+        312,
+        464
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        253,
+        251,
+        253
+      ],
+      "hex": "#fdfbfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        306,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        612,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        47,
+        5,
+        21
+      ],
+      "hex": "#2f0515",
+      "name": "Dark/Black",
+      "coordinates": [
+        918,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1224,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1530,
+        2784,
+        306,
+        468
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1836,
+        2784,
+        312,
+        468
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-8.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        36,
+        4,
+        18
+      ],
+      "hex": "#240412",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        302,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        604,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        44,
+        6,
+        21
+      ],
+      "hex": "#2c0615",
+      "name": "Dark/Black",
+      "coordinates": [
+        906,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        0,
+        302,
+        462
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1812,
+        0,
+        303,
+        462
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        43,
+        3,
+        13
+      ],
+      "hex": "#2b030d",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        41,
+        3,
+        13
+      ],
+      "hex": "#29030d",
+      "name": "Dark/Black",
+      "coordinates": [
+        302,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        42,
+        3,
+        15
+      ],
+      "hex": "#2a030f",
+      "name": "Dark/Black",
+      "coordinates": [
+        604,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        42,
+        3,
+        11
+      ],
+      "hex": "#2a030b",
+      "name": "Dark/Black",
+      "coordinates": [
+        906,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        31,
+        2,
+        7
+      ],
+      "hex": "#1f0207",
+      "name": "Dark/Black",
+      "coordinates": [
+        1510,
+        462,
+        302,
+        462
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        27,
+        3,
+        10
+      ],
+      "hex": "#1b030a",
+      "name": "Dark/Black",
+      "coordinates": [
+        1812,
+        462,
+        303,
+        462
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        34,
+        13,
+        21
+      ],
+      "hex": "#220d15",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        302,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        604,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        69,
+        10,
+        21
+      ],
+      "hex": "#450a15",
+      "name": "Red",
+      "coordinates": [
+        906,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        924,
+        302,
+        462
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1812,
+        924,
+        303,
+        462
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        119,
+        4,
+        29
+      ],
+      "hex": "#77041d",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        302,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        604,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        104,
+        2,
+        14
+      ],
+      "hex": "#68020e",
+      "name": "Red",
+      "coordinates": [
+        906,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        1386,
+        302,
+        462
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        114,
+        2,
+        19
+      ],
+      "hex": "#720213",
+      "name": "Red",
+      "coordinates": [
+        1812,
+        1386,
+        303,
+        462
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        252,
+        251,
+        252
+      ],
+      "hex": "#fcfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        302,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        604,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        140,
+        6,
+        30
+      ],
+      "hex": "#8c061e",
+      "name": "Red",
+      "coordinates": [
+        906,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        1848,
+        302,
+        462
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        252,
+        251,
+        252
+      ],
+      "hex": "#fcfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1812,
+        1848,
+        303,
+        462
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        110,
+        2,
+        21
+      ],
+      "hex": "#6e0215",
+      "name": "Red",
+      "coordinates": [
+        0,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        96,
+        2,
+        17
+      ],
+      "hex": "#600211",
+      "name": "Red",
+      "coordinates": [
+        302,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        89,
+        1,
+        13
+      ],
+      "hex": "#59010d",
+      "name": "Red",
+      "coordinates": [
+        604,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        81,
+        1,
+        10
+      ],
+      "hex": "#51010a",
+      "name": "Red",
+      "coordinates": [
+        906,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        106,
+        3,
+        24
+      ],
+      "hex": "#6a0318",
+      "name": "Red",
+      "coordinates": [
+        1208,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        2310,
+        302,
+        462
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        252,
+        251,
+        252
+      ],
+      "hex": "#fcfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1812,
+        2310,
+        303,
+        462
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        252,
+        249,
+        251
+      ],
+      "hex": "#fcf9fb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        302,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        604,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        75,
+        11,
+        16
+      ],
+      "hex": "#4b0b10",
+      "name": "Red",
+      "coordinates": [
+        906,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1208,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1510,
+        2772,
+        302,
+        468
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        68,
+        9,
+        13
+      ],
+      "hex": "#44090d",
+      "name": "Red",
+      "coordinates": [
+        1812,
+        2772,
+        303,
+        468
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-9.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        251,
+        250,
+        251
+      ],
+      "hex": "#fbfafb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        56,
+        1,
+        4
+      ],
+      "hex": "#380104",
+      "name": "Red",
+      "coordinates": [
+        888,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        0,
+        296,
+        462
+      ],
+      "grid_position": "Row 1, Col 6"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        251,
+        249,
+        249
+      ],
+      "hex": "#fbf9f9",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        0,
+        297,
+        462
+      ],
+      "grid_position": "Row 1, Col 7"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        144,
+        129,
+        119
+      ],
+      "hex": "#908177",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        138,
+        124,
+        124
+      ],
+      "hex": "#8a7c7c",
+      "name": "Red/Pink",
+      "coordinates": [
+        888,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        462,
+        296,
+        462
+      ],
+      "grid_position": "Row 2, Col 6"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        204,
+        197,
+        197
+      ],
+      "hex": "#ccc5c5",
+      "name": "Red/Pink",
+      "coordinates": [
+        1776,
+        462,
+        297,
+        462
+      ],
+      "grid_position": "Row 2, Col 7"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        252,
+        251,
+        251
+      ],
+      "hex": "#fcfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        251,
+        252,
+        252
+      ],
+      "hex": "#fbfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        143,
+        130,
+        129
+      ],
+      "hex": "#8f8281",
+      "name": "Red/Pink",
+      "coordinates": [
+        888,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        924,
+        296,
+        462
+      ],
+      "grid_position": "Row 3, Col 6"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        924,
+        297,
+        462
+      ],
+      "grid_position": "Row 3, Col 7"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        104,
+        87,
+        69
+      ],
+      "hex": "#685745",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        89,
+        71,
+        58
+      ],
+      "hex": "#59473a",
+      "name": "Red",
+      "coordinates": [
+        888,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        1386,
+        296,
+        462
+      ],
+      "grid_position": "Row 4, Col 6"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        109,
+        86,
+        73
+      ],
+      "hex": "#6d5649",
+      "name": "Red",
+      "coordinates": [
+        1776,
+        1386,
+        297,
+        462
+      ],
+      "grid_position": "Row 4, Col 7"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        91,
+        66,
+        56
+      ],
+      "hex": "#5b4238",
+      "name": "Red",
+      "coordinates": [
+        888,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        1848,
+        296,
+        462
+      ],
+      "grid_position": "Row 5, Col 6"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        44,
+        32,
+        23
+      ],
+      "hex": "#2c2017",
+      "name": "Dark/Black",
+      "coordinates": [
+        1776,
+        1848,
+        297,
+        462
+      ],
+      "grid_position": "Row 5, Col 7"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        106,
+        85,
+        76
+      ],
+      "hex": "#6a554c",
+      "name": "Red",
+      "coordinates": [
+        0,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        56,
+        45,
+        39
+      ],
+      "hex": "#382d27",
+      "name": "Red",
+      "coordinates": [
+        888,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        2310,
+        296,
+        462
+      ],
+      "grid_position": "Row 6, Col 6"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        63,
+        43,
+        37
+      ],
+      "hex": "#3f2b25",
+      "name": "Red",
+      "coordinates": [
+        1776,
+        2310,
+        297,
+        462
+      ],
+      "grid_position": "Row 6, Col 7"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        252,
+        251,
+        251
+      ],
+      "hex": "#fcfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        296,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        592,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        65,
+        62,
+        59
+      ],
+      "hex": "#413e3b",
+      "name": "Red",
+      "coordinates": [
+        888,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1184,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1480,
+        2772,
+        296,
+        462
+      ],
+      "grid_position": "Row 7, Col 6"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        251,
+        251,
+        251
+      ],
+      "hex": "#fbfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        1776,
+        2772,
+        297,
+        462
+      ],
+      "grid_position": "Row 7, Col 7"
+    }
+  ],
+  "suede-color-mixed1.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        447,
+        213
+      ],
+      "grid_position": "Row 1, Col 1"
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        0,
+        447,
+        213
+      ],
+      "grid_position": "Row 1, Col 2"
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        0,
+        447,
+        213
+      ],
+      "grid_position": "Row 1, Col 3"
+    },
+    {
+      "position": 4,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        0,
+        447,
+        213
+      ],
+      "grid_position": "Row 1, Col 4"
+    },
+    {
+      "position": 5,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        0,
+        448,
+        213
+      ],
+      "grid_position": "Row 1, Col 5"
+    },
+    {
+      "position": 6,
+      "rgb": [
+        250,
+        249,
+        248
+      ],
+      "hex": "#faf9f8",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        213,
+        447,
+        213
+      ],
+      "grid_position": "Row 2, Col 1"
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        213,
+        447,
+        213
+      ],
+      "grid_position": "Row 2, Col 2"
+    },
+    {
+      "position": 8,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        213,
+        447,
+        213
+      ],
+      "grid_position": "Row 2, Col 3"
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        213,
+        447,
+        213
+      ],
+      "grid_position": "Row 2, Col 4"
+    },
+    {
+      "position": 10,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        213,
+        448,
+        213
+      ],
+      "grid_position": "Row 2, Col 5"
+    },
+    {
+      "position": 11,
+      "rgb": [
+        202,
+        170,
+        150
+      ],
+      "hex": "#caaa96",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        426,
+        447,
+        213
+      ],
+      "grid_position": "Row 3, Col 1"
+    },
+    {
+      "position": 12,
+      "rgb": [
+        175,
+        138,
+        130
+      ],
+      "hex": "#af8a82",
+      "name": "Red/Pink",
+      "coordinates": [
+        447,
+        426,
+        447,
+        213
+      ],
+      "grid_position": "Row 3, Col 2"
+    },
+    {
+      "position": 13,
+      "rgb": [
+        187,
+        148,
+        125
+      ],
+      "hex": "#bb947d",
+      "name": "Red/Pink",
+      "coordinates": [
+        894,
+        426,
+        447,
+        213
+      ],
+      "grid_position": "Row 3, Col 3"
+    },
+    {
+      "position": 14,
+      "rgb": [
+        139,
+        113,
+        96
+      ],
+      "hex": "#8b7160",
+      "name": "Red/Pink",
+      "coordinates": [
+        1341,
+        426,
+        447,
+        213
+      ],
+      "grid_position": "Row 3, Col 4"
+    },
+    {
+      "position": 15,
+      "rgb": [
+        201,
+        161,
+        134
+      ],
+      "hex": "#c9a186",
+      "name": "Red/Pink",
+      "coordinates": [
+        1788,
+        426,
+        448,
+        213
+      ],
+      "grid_position": "Row 3, Col 5"
+    },
+    {
+      "position": 16,
+      "rgb": [
+        253,
+        252,
+        251
+      ],
+      "hex": "#fdfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        639,
+        447,
+        213
+      ],
+      "grid_position": "Row 4, Col 1"
+    },
+    {
+      "position": 17,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        639,
+        447,
+        213
+      ],
+      "grid_position": "Row 4, Col 2"
+    },
+    {
+      "position": 18,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        639,
+        447,
+        213
+      ],
+      "grid_position": "Row 4, Col 3"
+    },
+    {
+      "position": 19,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        639,
+        447,
+        213
+      ],
+      "grid_position": "Row 4, Col 4"
+    },
+    {
+      "position": 20,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        639,
+        448,
+        213
+      ],
+      "grid_position": "Row 4, Col 5"
+    },
+    {
+      "position": 21,
+      "rgb": [
+        254,
+        254,
+        253
+      ],
+      "hex": "#fefefd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        852,
+        447,
+        213
+      ],
+      "grid_position": "Row 5, Col 1"
+    },
+    {
+      "position": 22,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        852,
+        447,
+        213
+      ],
+      "grid_position": "Row 5, Col 2"
+    },
+    {
+      "position": 23,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        852,
+        447,
+        213
+      ],
+      "grid_position": "Row 5, Col 3"
+    },
+    {
+      "position": 24,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        852,
+        447,
+        213
+      ],
+      "grid_position": "Row 5, Col 4"
+    },
+    {
+      "position": 25,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        852,
+        448,
+        213
+      ],
+      "grid_position": "Row 5, Col 5"
+    },
+    {
+      "position": 26,
+      "rgb": [
+        184,
+        137,
+        121
+      ],
+      "hex": "#b88979",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1065,
+        447,
+        213
+      ],
+      "grid_position": "Row 6, Col 1"
+    },
+    {
+      "position": 27,
+      "rgb": [
+        185,
+        140,
+        120
+      ],
+      "hex": "#b98c78",
+      "name": "Red/Pink",
+      "coordinates": [
+        447,
+        1065,
+        447,
+        213
+      ],
+      "grid_position": "Row 6, Col 2"
+    },
+    {
+      "position": 28,
+      "rgb": [
+        167,
+        133,
+        117
+      ],
+      "hex": "#a78575",
+      "name": "Red/Pink",
+      "coordinates": [
+        894,
+        1065,
+        447,
+        213
+      ],
+      "grid_position": "Row 6, Col 3"
+    },
+    {
+      "position": 29,
+      "rgb": [
+        173,
+        127,
+        104
+      ],
+      "hex": "#ad7f68",
+      "name": "Red/Pink",
+      "coordinates": [
+        1341,
+        1065,
+        447,
+        213
+      ],
+      "grid_position": "Row 6, Col 4"
+    },
+    {
+      "position": 30,
+      "rgb": [
+        220,
+        176,
+        137
+      ],
+      "hex": "#dcb089",
+      "name": "Red/Pink",
+      "coordinates": [
+        1788,
+        1065,
+        448,
+        213
+      ],
+      "grid_position": "Row 6, Col 5"
+    },
+    {
+      "position": 31,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1278,
+        447,
+        213
+      ],
+      "grid_position": "Row 7, Col 1"
+    },
+    {
+      "position": 32,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        1278,
+        447,
+        213
+      ],
+      "grid_position": "Row 7, Col 2"
+    },
+    {
+      "position": 33,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        1278,
+        447,
+        213
+      ],
+      "grid_position": "Row 7, Col 3"
+    },
+    {
+      "position": 34,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        1278,
+        447,
+        213
+      ],
+      "grid_position": "Row 7, Col 4"
+    },
+    {
+      "position": 35,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1278,
+        448,
+        213
+      ],
+      "grid_position": "Row 7, Col 5"
+    },
+    {
+      "position": 36,
+      "rgb": [
+        174,
+        156,
+        141
+      ],
+      "hex": "#ae9c8d",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1491,
+        447,
+        213
+      ],
+      "grid_position": "Row 8, Col 1"
+    },
+    {
+      "position": 37,
+      "rgb": [
+        151,
+        125,
+        112
+      ],
+      "hex": "#977d70",
+      "name": "Red/Pink",
+      "coordinates": [
+        447,
+        1491,
+        447,
+        213
+      ],
+      "grid_position": "Row 8, Col 2"
+    },
+    {
+      "position": 38,
+      "rgb": [
+        154,
+        127,
+        107
+      ],
+      "hex": "#9a7f6b",
+      "name": "Red/Pink",
+      "coordinates": [
+        894,
+        1491,
+        447,
+        213
+      ],
+      "grid_position": "Row 8, Col 3"
+    },
+    {
+      "position": 39,
+      "rgb": [
+        159,
+        130,
+        105
+      ],
+      "hex": "#9f8269",
+      "name": "Red/Pink",
+      "coordinates": [
+        1341,
+        1491,
+        447,
+        213
+      ],
+      "grid_position": "Row 8, Col 4"
+    },
+    {
+      "position": 40,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1491,
+        448,
+        213
+      ],
+      "grid_position": "Row 8, Col 5"
+    },
+    {
+      "position": 41,
+      "rgb": [
+        152,
+        110,
+        99
+      ],
+      "hex": "#986e63",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1704,
+        447,
+        213
+      ],
+      "grid_position": "Row 9, Col 1"
+    },
+    {
+      "position": 42,
+      "rgb": [
+        128,
+        91,
+        83
+      ],
+      "hex": "#805b53",
+      "name": "Red",
+      "coordinates": [
+        447,
+        1704,
+        447,
+        213
+      ],
+      "grid_position": "Row 9, Col 2"
+    },
+    {
+      "position": 43,
+      "rgb": [
+        188,
+        130,
+        111
+      ],
+      "hex": "#bc826f",
+      "name": "Red/Pink",
+      "coordinates": [
+        894,
+        1704,
+        447,
+        213
+      ],
+      "grid_position": "Row 9, Col 3"
+    },
+    {
+      "position": 44,
+      "rgb": [
+        180,
+        133,
+        113
+      ],
+      "hex": "#b48571",
+      "name": "Red/Pink",
+      "coordinates": [
+        1341,
+        1704,
+        447,
+        213
+      ],
+      "grid_position": "Row 9, Col 4"
+    },
+    {
+      "position": 45,
+      "rgb": [
+        174,
+        132,
+        118
+      ],
+      "hex": "#ae8476",
+      "name": "Red/Pink",
+      "coordinates": [
+        1788,
+        1704,
+        448,
+        213
+      ],
+      "grid_position": "Row 9, Col 5"
+    },
+    {
+      "position": 46,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1917,
+        447,
+        219
+      ],
+      "grid_position": "Row 10, Col 1"
+    },
+    {
+      "position": 47,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        447,
+        1917,
+        447,
+        219
+      ],
+      "grid_position": "Row 10, Col 2"
+    },
+    {
+      "position": 48,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        894,
+        1917,
+        447,
+        219
+      ],
+      "grid_position": "Row 10, Col 3"
+    },
+    {
+      "position": 49,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1341,
+        1917,
+        447,
+        219
+      ],
+      "grid_position": "Row 10, Col 4"
+    },
+    {
+      "position": 50,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1788,
+        1917,
+        448,
+        219
+      ],
+      "grid_position": "Row 10, Col 5"
+    }
+  ]
+}

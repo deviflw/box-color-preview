@@ -1,0 +1,1608 @@
+{
+  "suede-1.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        252,
+        251,
+        250
+      ],
+      "hex": "#fcfbfa",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        252,
+        250
+      ],
+      "hex": "#fdfcfa",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        252,
+        249,
+        246
+      ],
+      "hex": "#fcf9f6",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        252,
+        251
+      ],
+      "hex": "#fefcfb",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1424,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        1424,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        1424,
+        745,
+        712
+      ]
+    }
+  ],
+  "suede-10.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        670,
+        0,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1340,
+        0,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1088,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        670,
+        1088,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        17,
+        9,
+        8
+      ],
+      "hex": "#110908",
+      "name": "Dark/Black",
+      "coordinates": [
+        1340,
+        1088,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2176,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        670,
+        2176,
+        670,
+        1088
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        19,
+        12,
+        13
+      ],
+      "hex": "#130c0d",
+      "name": "Dark/Black",
+      "coordinates": [
+        1340,
+        2176,
+        670,
+        1088
+      ]
+    }
+  ],
+  "suede-2.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        252,
+        252,
+        249
+      ],
+      "hex": "#fcfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        252,
+        249
+      ],
+      "hex": "#fdfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        704,
+        0,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        252,
+        252,
+        249
+      ],
+      "hex": "#fcfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        1408,
+        0,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        252,
+        250
+      ],
+      "hex": "#fdfcfa",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1065,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        704,
+        1065,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        252,
+        249
+      ],
+      "hex": "#fdfcf9",
+      "name": "Light/White",
+      "coordinates": [
+        1408,
+        1065,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        250,
+        250,
+        245
+      ],
+      "hex": "#fafaf5",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2130,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        250,
+        250,
+        246
+      ],
+      "hex": "#fafaf6",
+      "name": "Light/White",
+      "coordinates": [
+        704,
+        2130,
+        704,
+        1065
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        248,
+        247,
+        243
+      ],
+      "hex": "#f8f7f3",
+      "name": "Light/White",
+      "coordinates": [
+        1408,
+        2130,
+        704,
+        1065
+      ]
+    }
+  ],
+  "suede-3.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        714,
+        0,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1428,
+        0,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1076,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        252,
+        252,
+        251
+      ],
+      "hex": "#fcfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        714,
+        1076,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1428,
+        1076,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2152,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        714,
+        2152,
+        714,
+        1076
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1428,
+        2152,
+        714,
+        1076
+      ]
+    }
+  ],
+  "suede-4.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        252,
+        252,
+        251
+      ],
+      "hex": "#fcfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        687,
+        0,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        252,
+        252,
+        251
+      ],
+      "hex": "#fcfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        1374,
+        0,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        202,
+        163,
+        51
+      ],
+      "hex": "#caa333",
+      "name": "Red/Pink",
+      "coordinates": [
+        0,
+        1044,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        249
+      ],
+      "hex": "#fdfdf9",
+      "name": "Light/White",
+      "coordinates": [
+        687,
+        1044,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        248
+      ],
+      "hex": "#fdfdf8",
+      "name": "Light/White",
+      "coordinates": [
+        1374,
+        1044,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2088,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        250
+      ],
+      "hex": "#fdfdfa",
+      "name": "Light/White",
+      "coordinates": [
+        687,
+        2088,
+        687,
+        1044
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        253,
+        251
+      ],
+      "hex": "#fdfdfb",
+      "name": "Light/White",
+      "coordinates": [
+        1374,
+        2088,
+        687,
+        1044
+      ]
+    }
+  ],
+  "suede-5.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        11,
+        62,
+        60
+      ],
+      "hex": "#0b3e3c",
+      "name": "Dark Green",
+      "coordinates": [
+        0,
+        0,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        692,
+        0,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        251,
+        252,
+        251
+      ],
+      "hex": "#fbfcfb",
+      "name": "Light/White",
+      "coordinates": [
+        1384,
+        0,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1079,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        254
+      ],
+      "hex": "#fdfdfe",
+      "name": "Light/White",
+      "coordinates": [
+        692,
+        1079,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        8,
+        17,
+        66
+      ],
+      "hex": "#081142",
+      "name": "Dark Blue",
+      "coordinates": [
+        1384,
+        1079,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        1,
+        2,
+        24
+      ],
+      "hex": "#010218",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        2158,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        692,
+        2158,
+        692,
+        1079
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        252,
+        252,
+        252
+      ],
+      "hex": "#fcfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1384,
+        2158,
+        692,
+        1079
+      ]
+    }
+  ],
+  "suede-6.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        5,
+        7,
+        25
+      ],
+      "hex": "#050719",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        0,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        695,
+        0,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        250,
+        243,
+        248
+      ],
+      "hex": "#faf3f8",
+      "name": "Light/White",
+      "coordinates": [
+        1390,
+        0,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1067,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        251,
+        245,
+        249
+      ],
+      "hex": "#fbf5f9",
+      "name": "Light/White",
+      "coordinates": [
+        695,
+        1067,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        249,
+        240,
+        246
+      ],
+      "hex": "#f9f0f6",
+      "name": "Light/White",
+      "coordinates": [
+        1390,
+        1067,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2134,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        695,
+        2134,
+        695,
+        1067
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        251,
+        251
+      ],
+      "hex": "#fdfbfb",
+      "name": "Light/White",
+      "coordinates": [
+        1390,
+        2134,
+        695,
+        1067
+      ]
+    }
+  ],
+  "suede-7.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        716,
+        0,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1432,
+        0,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1084,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        716,
+        1084,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        1432,
+        1084,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        25,
+        3,
+        20
+      ],
+      "hex": "#190314",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        2168,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        716,
+        2168,
+        716,
+        1084
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        17,
+        1,
+        8
+      ],
+      "hex": "#110108",
+      "name": "Dark/Black",
+      "coordinates": [
+        1432,
+        2168,
+        716,
+        1084
+      ]
+    }
+  ],
+  "suede-8.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        37,
+        3,
+        14
+      ],
+      "hex": "#25030e",
+      "name": "Dark/Black",
+      "coordinates": [
+        0,
+        0,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        253,
+        254
+      ],
+      "hex": "#fefdfe",
+      "name": "Light/White",
+      "coordinates": [
+        705,
+        0,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        36,
+        4,
+        11
+      ],
+      "hex": "#24040b",
+      "name": "Dark/Black",
+      "coordinates": [
+        1410,
+        0,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        160,
+        10,
+        44
+      ],
+      "hex": "#a00a2c",
+      "name": "Red",
+      "coordinates": [
+        0,
+        1080,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        252,
+        253
+      ],
+      "hex": "#fdfcfd",
+      "name": "Light/White",
+      "coordinates": [
+        705,
+        1080,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1410,
+        1080,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        251,
+        252
+      ],
+      "hex": "#fdfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2160,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        705,
+        2160,
+        705,
+        1080
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        252,
+        251,
+        252
+      ],
+      "hex": "#fcfbfc",
+      "name": "Light/White",
+      "coordinates": [
+        1410,
+        2160,
+        705,
+        1080
+      ]
+    }
+  ],
+  "suede-9.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        252,
+        252,
+        252
+      ],
+      "hex": "#fcfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        691,
+        0,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        247,
+        246,
+        246
+      ],
+      "hex": "#f7f6f6",
+      "name": "Light/White",
+      "coordinates": [
+        1382,
+        0,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        83,
+        64,
+        50
+      ],
+      "hex": "#534032",
+      "name": "Dark Red",
+      "coordinates": [
+        0,
+        1078,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        691,
+        1078,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        253,
+        253,
+        252
+      ],
+      "hex": "#fdfdfc",
+      "name": "Light/White",
+      "coordinates": [
+        1382,
+        1078,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        2156,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        691,
+        2156,
+        691,
+        1078
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        253,
+        252,
+        252
+      ],
+      "hex": "#fdfcfc",
+      "name": "Light/White",
+      "coordinates": [
+        1382,
+        2156,
+        691,
+        1078
+      ]
+    }
+  ],
+  "suede-color-mixed1.jpg": [
+    {
+      "position": 1,
+      "rgb": [
+        251,
+        250,
+        249
+      ],
+      "hex": "#fbfaf9",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 2,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 3,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        0,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 4,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 5,
+      "rgb": [
+        253,
+        253,
+        253
+      ],
+      "hex": "#fdfdfd",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 6,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        712,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 7,
+      "rgb": [
+        254,
+        253,
+        253
+      ],
+      "hex": "#fefdfd",
+      "name": "Light/White",
+      "coordinates": [
+        0,
+        1424,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 8,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        745,
+        1424,
+        745,
+        712
+      ]
+    },
+    {
+      "position": 9,
+      "rgb": [
+        254,
+        254,
+        254
+      ],
+      "hex": "#fefefe",
+      "name": "Light/White",
+      "coordinates": [
+        1490,
+        1424,
+        745,
+        712
+      ]
+    }
+  ]
+}
