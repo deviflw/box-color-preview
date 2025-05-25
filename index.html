@@ -246,9 +246,9 @@
             box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
         }
 
-        /* Blend modes for layers - trying alternatives to match Photoshop better */
-        .overlay { mix-blend-mode: multiply; }  /* Try multiply instead of overlay */
-        .soft-light { mix-blend-mode: soft-light; }  /* Alternative option */
+        /* Blend modes for layers */
+        .overlay { mix-blend-mode: overlay; }
+        .hard-light { mix-blend-mode: hard-light; }
 
         /* Footer styles - inside container as bottom section */
         .footer {
@@ -343,23 +343,23 @@
 
             <div class="preview-area">
                 <div class="mockup-container">
-                    <!-- Base Under Layer (already transparent PNG, no opacity needed) -->
+                    <!-- Base Under Layer (normal, no effects) -->
                     <div class="layer" id="base-under" 
                          style="background-image: url('Mockup/PNG/light-base-under.png')"></div>
                     
-                    <!-- Suede Mask Layer (overlay) with default gray color -->
-                    <div class="layer overlay" id="suede-mask"
+                    <!-- Suede Mask Layer (normal) with default gray color -->
+                    <div class="layer" id="suede-mask"
                          style="background-image: url('Mockup/PNG/suede-mask.png'); background-color: #808080;"></div>
                     
-                    <!-- Leather Mask Layer (overlay) with default gray color -->
-                    <div class="layer overlay" id="leather-mask"
+                    <!-- Leather Mask Layer (normal) with default gray color -->
+                    <div class="layer" id="leather-mask"
                          style="background-image: url('Mockup/PNG/leather-mask.png'); background-color: #808080;"></div>
                     
-                    <!-- Base Top Layer (trying multiply blend) -->
-                    <div class="layer overlay" id="base-top"
-                         style="background-image: url('Mockup/PNG/light-base-top.png')"></div>
+                    <!-- Texture Hard Light Layer -->
+                    <div class="layer hard-light" id="texture-hard-light"
+                         style="background-image: url('Mockup/PNG/texture-hard-light.png')"></div>
                     
-                    <!-- Texture Layer (overlay) -->
+                    <!-- Texture Overlay Layer -->
                     <div class="layer overlay" id="texture"
                          style="background-image: url('Mockup/PNG/texture.png')"></div>
                     
@@ -393,7 +393,6 @@
         function initializeBaseSelector() {
             const baseButtons = document.querySelectorAll('.base-btn');
             const baseUnder = document.getElementById('base-under');
-            const baseTop = document.getElementById('base-top');
 
             baseButtons.forEach(btn => {
                 btn.addEventListener('click', function() {
@@ -404,13 +403,11 @@
                     // Update current base
                     currentBase = this.dataset.base;
                     
-                    // Update layers (no opacity changes needed - PNGs are already transparent)
+                    // Update base under layer only
                     if (currentBase === 'light') {
                         baseUnder.style.backgroundImage = "url('Mockup/PNG/light-base-under.png')";
-                        baseTop.style.backgroundImage = "url('Mockup/PNG/light-base-top.png')";
                     } else {
                         baseUnder.style.backgroundImage = "url('Mockup/PNG/dark-base-under.png')";
-                        baseTop.style.backgroundImage = "url('Mockup/PNG/dark-base-top.png')";
                     }
                     
                     // Update info display
