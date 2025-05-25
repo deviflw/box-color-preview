@@ -249,9 +249,6 @@
         /* Blend modes for layers */
         .overlay { mix-blend-mode: overlay; }
         .hard-light { mix-blend-mode: hard-light; }
-        
-        /* Invert masks to fix reversed masking */
-        .mask-inverted { filter: invert(1); }
 
         /* Footer styles - inside container as bottom section */
         .footer {
@@ -350,13 +347,13 @@
                     <div class="layer" id="base-under" 
                          style="background-image: url('Mockup/PNG/light-base-under.png')"></div>
                     
-                    <!-- Suede Mask Layer - Using CSS mask with inversion -->
-                    <div class="layer mask-inverted" id="suede-mask"
+                    <!-- Suede Mask Layer - Clean CSS mask, no filters -->
+                    <div class="layer" id="suede-mask"
                          style="background-color: #808080; mask: url('Mockup/PNG/suede-mask.png'); -webkit-mask: url('Mockup/PNG/suede-mask.png'); mask-size: contain; -webkit-mask-size: contain; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; mask-position: center; -webkit-mask-position: center;"></div>
                     
-                    <!-- Leather Mask Layer - Using background-image with inversion -->
-                    <div class="layer mask-inverted" id="leather-mask"
-                         style="background-image: url('Mockup/PNG/leather-mask.png'); background-color: #808080;"></div>
+                    <!-- Leather Mask Layer - Clean CSS mask, no filters -->
+                    <div class="layer" id="leather-mask"
+                         style="background-color: #808080; mask: url('Mockup/PNG/leather-mask.png'); -webkit-mask: url('Mockup/PNG/leather-mask.png'); mask-size: contain; -webkit-mask-size: contain; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat; mask-position: center; -webkit-mask-position: center;"></div>
                     
                     <!-- Texture Hard Light Layer -->
                     <div class="layer hard-light" id="texture-hard-light"
@@ -530,12 +527,21 @@
         function updateLeatherColor() {
             const leatherMask = document.getElementById('leather-mask');
             leatherMask.style.backgroundColor = selectedLeather.hex;
+            // Preserve mask properties
+            leatherMask.style.mask = "url('Mockup/PNG/leather-mask.png')";
+            leatherMask.style.webkitMask = "url('Mockup/PNG/leather-mask.png')";
+            leatherMask.style.maskSize = "contain";
+            leatherMask.style.webkitMaskSize = "contain";
+            leatherMask.style.maskRepeat = "no-repeat";
+            leatherMask.style.webkitMaskRepeat = "no-repeat";
+            leatherMask.style.maskPosition = "center";
+            leatherMask.style.webkitMaskPosition = "center";
         }
 
         function updateSuedeColor() {
             const suedeMask = document.getElementById('suede-mask');
             suedeMask.style.backgroundColor = selectedSuede.hex;
-            // Preserve mask properties for suede only
+            // Preserve mask properties
             suedeMask.style.mask = "url('Mockup/PNG/suede-mask.png')";
             suedeMask.style.webkitMask = "url('Mockup/PNG/suede-mask.png')";
             suedeMask.style.maskSize = "contain";
