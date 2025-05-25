@@ -246,9 +246,9 @@
             box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
         }
 
-        /* Blend modes for layers */
-        .overlay { mix-blend-mode: overlay; }
-        /* Removed opacity-20 and mask-inverted - not needed anymore */
+        /* Blend modes for layers - trying alternatives to match Photoshop better */
+        .overlay { mix-blend-mode: multiply; }  /* Try multiply instead of overlay */
+        .soft-light { mix-blend-mode: soft-light; }  /* Alternative option */
 
         /* Footer styles - inside container as bottom section */
         .footer {
@@ -355,7 +355,7 @@
                     <div class="layer overlay" id="leather-mask"
                          style="background-image: url('Mockup/PNG/leather-mask.png'); background-color: #808080;"></div>
                     
-                    <!-- Base Top Layer (overlay) -->
+                    <!-- Base Top Layer (trying multiply blend) -->
                     <div class="layer overlay" id="base-top"
                          style="background-image: url('Mockup/PNG/light-base-top.png')"></div>
                     
