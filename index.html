@@ -248,10 +248,7 @@
 
         /* Blend modes for layers */
         .overlay { mix-blend-mode: overlay; }
-        .opacity-20 { opacity: 0.2; }
-        
-        /* Invert masks to fix reversed areas */
-        .mask-inverted { filter: invert(1); }
+        /* Removed opacity-20 and mask-inverted - not needed anymore */
 
         /* Footer styles - inside container as bottom section */
         .footer {
@@ -346,16 +343,16 @@
 
             <div class="preview-area">
                 <div class="mockup-container">
-                    <!-- Base Under Layer (20% opacity) -->
-                    <div class="layer opacity-20" id="base-under" 
+                    <!-- Base Under Layer (already transparent PNG, no opacity needed) -->
+                    <div class="layer" id="base-under" 
                          style="background-image: url('Mockup/PNG/light-base-under.png')"></div>
                     
-                    <!-- Suede Mask Layer (overlay) with color - INVERTED -->
-                    <div class="layer overlay mask-inverted" id="suede-mask"
+                    <!-- Suede Mask Layer (overlay) with color -->
+                    <div class="layer overlay" id="suede-mask"
                          style="background-image: url('Mockup/PNG/suede-mask.png'); background-color: #228B22;"></div>
                     
-                    <!-- Leather Mask Layer (overlay) with color - INVERTED -->
-                    <div class="layer overlay mask-inverted" id="leather-mask"
+                    <!-- Leather Mask Layer (overlay) with color -->
+                    <div class="layer overlay" id="leather-mask"
                          style="background-image: url('Mockup/PNG/leather-mask.png'); background-color: #8B4513;"></div>
                     
                     <!-- Base Top Layer (overlay) -->
@@ -366,7 +363,7 @@
                     <div class="layer overlay" id="texture"
                          style="background-image: url('Mockup/PNG/texture.png')"></div>
                     
-                    <!-- AUBLIQ Logo -->
+                    <!-- AUBLIQ Logo (normal, no effects) -->
                     <div class="layer" id="logo"
                          style="background-image: url('Mockup/PNG/logo.png')"></div>
                 </div>
@@ -407,7 +404,7 @@
                     // Update current base
                     currentBase = this.dataset.base;
                     
-                    // Update layers
+                    // Update layers (no opacity changes needed - PNGs are already transparent)
                     if (currentBase === 'light') {
                         baseUnder.style.backgroundImage = "url('Mockup/PNG/light-base-under.png')";
                         baseTop.style.backgroundImage = "url('Mockup/PNG/light-base-top.png')";
